@@ -1,0 +1,324 @@
+Warning: No race "None" found (AE_mag_bug_3827).
+Warning: No picture units/monsters/undead-dragon.png~CROP(7,68,153,86)~SCALE_INTO(90,90) for unit AE_ext_monsters_Undead_Dragon.
+Error: No attack icon '//attacks/bloody-sword-two.png' found for 'AE_ele_Skeletal_Frontliner'.
+Error: No attack icon '//attacks/bloody-glaive.png' found for 'AE_ele_Skeletal_Frontliner'.
+Warning: Weapon special damage has no name for AE_rhy_de_Assassin.
+Warning: Weapon special chance_to_hit has no name for AE_rhy_de_Assassin.
+Warning: Weapon special disable has no name for AE_rhy_de_Assassin.
+Error: No attack icon '//attacks/staff-bloody-skel.png' found for 'AE_ele_Skeletal_Maistresse'.
+Error: No attack icon '//attacks/forest-chill.png' found for 'AE_ele_Skeletal_Maistresse'.
+Error: No attack icon '//attacks/dark-missile-se.png' found for 'AE_ele_Skeletal_Maistresse'.
+Error: No attack icon '//attacks/chaosmissiles.png' found for 'AE_ele_Skeletal_Maistresse'.
+Error: No attack icon '//attacks/viking-spear-one.png' found for 'AE_ele_Viking_Spyd_Kriger'.
+Error: No attack icon '//attacks/shield_polished.png' found for 'AE_ele_Viking_Spyd_Kriger'.
+Error: No attack icon '//attacks/viking-axe-three.png' found for 'AE_ele_Viking_Okse_Skjold'.
+Error: No attack icon '//attacks/viking-shield.png' found for 'AE_ele_Viking_Okse_Skjold'.
+Error: No attack icon '//attacks/viking-hatchet.png' found for 'AE_ele_Viking_Okse_Skjold'.
+Error: No attack icon '//attacks/bloody-scyth.png' found for 'AE_ele_Skeletal_Mage_Rider'.
+Error: No attack icon '//attacks/staff-necromantic.png' found for 'AE_ele_Skeletal_Mage_Rider'.
+Error: No attack icon '//attacks/chaosmissiles.png' found for 'AE_ele_Skeletal_Mage_Rider'.
+Error: No attack icon '//attacks/bloody-halberd-side.png' found for 'AE_ele_Skeletal_Fortress'.
+Error: No attack icon '//attacks/graft_spear.png' found for 'AE_ele_Skeletal_Fortress'.
+Error: No attack icon '//attacks/sword—human-three.png' found for 'AE_ele_Viking_Sverd_Skjold'.
+Error: No attack icon '//attacks/viking-shield.png' found for 'AE_ele_Viking_Sverd_Skjold'.
+Error: No attack icon '//attacks/bow-short-reinforced.png' found for 'AE_ele_Viking_Sverd_Skjold'.
+Error: No attack icon '//attacks/pike.png' found for 'AE_ele_Centaur_Chaser'.
+Error: No attack icon '//attacks/chainwhip.png' found for 'AE_ele_Centaur_Chaser'.
+Warning: Weapon special heal_on_hit has no name for AE_mie_vampire_savage.
+Warning: Weapon special heal_on_hit has no name for AE_mie_vampire_heaven_hunter.
+Error: No attack icon '//attacks/chainwhip.png' found for 'AE_ele_Centaur_Retriever'.
+Error: No attack icon '//attacks/whip.png' found for 'AE_ele_Centaur_Retriever'.
+Warning: Weapon special heal_on_hit has no name for AE_mie_vampire_apprentice.
+Error: No attack icon '//attacks/viking-axe-three.png' found for 'AE_ele_Viking_Huskarl'.
+Error: No attack icon '//attacks/viking-hatchet.png' found for 'AE_ele_Viking_Huskarl'.
+Error: No attack icon '//attacks/staff-mermaid.png' found for 'AE_ele_Centaur_Angelican'.
+Error: No attack icon '//attacks/lightfocus.png' found for 'AE_ele_Centaur_Angelican'.
+Warning: Weapon special damage has no name for AE_mrc_refugees_Javelineer.
+Error: No attack icon 'attacks/aura-fire.png' found for 'AE_chs_sylvians_Sprite'.
+Warning: Weapon special damage has no name for AE_rhy_de_Greatassassin.
+Warning: Weapon special chance_to_hit has no name for AE_rhy_de_Greatassassin.
+Warning: Weapon special disable has no name for AE_rhy_de_Greatassassin.
+Error: No attack icon '//attacks/graft-spear.png' found for 'AE_ele_Centaur_Patrol'.
+Error: No attack icon '//attacks/whip.png' found for 'AE_ele_Centaur_Patrol'.
+Error: No attack icon '//attacks/dagger.png' found for 'AE_ele_Centaur_Ranger'.
+Error: No attack icon '//attacks/bow-silver-side.png' found for 'AE_ele_Centaur_Ranger'.
+Error: No attack icon '//attacks/viking-axe-one.png' found for 'AE_ele_Viking_Lendr'.
+Error: No attack icon '//attacks/viking-hatchet.png' found for 'AE_ele_Viking_Lendr'.
+Error: No attack icon 'attacks/frost.png' found for 'AE_fut_Nordhris_Apprentice'.
+Error: No attack icon '//attacks/fallen-dagger-three.png' found for 'AE_ele_Fallen_Liquidator'.
+Error: No attack icon '//attacks/fallen-dagger-poisin-three.png' found for 'AE_ele_Fallen_Liquidator'.
+Error: No attack icon '//attacks/fallen-scream-three.png' found for 'AE_ele_Fallen_Liquidator'.
+Error: No attack icon '//attacks/quarterstaff.png' found for 'AE_ele_Centaur_Seductress'.
+Error: No attack icon '//attacks/tornado-3.png' found for 'AE_ele_Centaur_Seductress'.
+Error: No attack icon '//attacks/bloody-sword-two.png' found for 'AE_ele_Skeletal_Lich_Underlord'.
+Error: No attack icon '//attacks/chaosmissiles.png' found for 'AE_ele_Skeletal_Lich_Underlord'.
+Error: No attack icon '//attacks/bloody-scyth-upper.png' found for 'AE_ele_Skeletal_Mage_Knight'.
+Error: No attack icon '//attacks/staff-plague.png' found for 'AE_ele_Skeletal_Mage_Knight'.
+Error: No attack icon '//attacks/chaosmissiles.png' found for 'AE_ele_Skeletal_Mage_Knight'.
+Error: No attack icon '//attacks/quarterstaff-magic.png' found for 'AE_ele_Centaur_Apprentice'.
+Error: No attack icon '//attacks/tornado-3.png' found for 'AE_ele_Centaur_Apprentice'.
+Error: No attack icon '//attacks/thorns-green.png' found for 'AE_ele_Centaur_Apprentice'.
+Warning: Weapon special heal_on_hit has no name for AE_mie_vampire_shadow_archer.
+Warning: Weapon special damage has no name for AE_rhy_mh_Falconmaster.
+Error: No attack icon '//attacks/fallen-dagger-two.png' found for 'AE_ele_Fallen_Infiltrator'.
+Error: No attack icon '//attacks/fallen-dagger-poisin-two.png' found for 'AE_ele_Fallen_Infiltrator'.
+Error: No attack icon '//attacks/fallen-scream-two.png' found for 'AE_ele_Fallen_Infiltrator'.
+Error: No attack icon '//attacks/viking-axe-two.png' found for 'AE_ele_Viking_Thane'.
+Error: No attack icon '//attacks/viking-hatchet.png' found for 'AE_ele_Viking_Thane'.
+Error: No attack icon '//attacks/pike.png' found for 'AE_ele_Centaur_Javeliniere'.
+Error: No attack icon '//attacks/shield-centaur-smaller.png' found for 'AE_ele_Centaur_Javeliniere'.
+Error: No attack icon '//attacks/javelin-human.png' found for 'AE_ele_Centaur_Javeliniere'.
+Error: No attack icon '//attacks/touch-undead-fire.png' found for 'AE_ele_Skeletal_Corpse_Inferno'.
+Error: No attack icon '//attacks/fireball-summoner-se.png' found for 'AE_ele_Skeletal_Corpse_Inferno'.
+Error: No attack icon '//attacks/cleric-staff.png' found for 'AE_ele_Centaur_Priestess'.
+Error: No attack icon '//attacks/lightfocus.png' found for 'AE_ele_Centaur_Priestess'.
+Error: No attack icon '//attacks/bloody-dagger.png' found for 'AE_ele_Skeletal_Corpse_Fighter'.
+Error: No attack icon '//attacks/head.png' found for 'AE_ele_Skeletal_Corpse_Fighter'.
+Error: No attack icon '//attacks/bloody-doubleaxe.png' found for 'AE_ele_Skeletal_Horse_Knight'.
+Error: No attack icon '//attacks/bloody-lance.png' found for 'AE_ele_Skeletal_Horse_Knight'.
+Warning: Weapon special chance_to_hit has no name for AE_arc_south_seas_Sea_Scourge.
+Error: No attack icon '//attacks/fist-skeletal.png' found for 'AE_ele_Skeletal_Witch'.
+Error: No attack icon '//attacks/forest-chill.png' found for 'AE_ele_Skeletal_Witch'.
+Error: No attack icon '//attacks/dark-missile-se.png' found for 'AE_ele_Skeletal_Witch'.
+Warning: Weapon special damage has no name for AE_mrc_refugees_Linebacker.
+Error: No attack icon '//attacks/dagger-human.png' found for 'AE_ele_Centaur_Archer'.
+Error: No attack icon '//attacks/bow-silver-side.png' found for 'AE_ele_Centaur_Archer'.
+Error: No attack icon '//attacks/sword-human.png' found for 'AE_ele_Viking_Stor_Sverd'.
+Error: No attack icon '//attacks/viking-shield.png' found for 'AE_ele_Viking_Stor_Sverd'.
+Error: No attack icon '//attacks/bow-short.png' found for 'AE_ele_Viking_Stor_Sverd'.
+Warning: Weapon special heal_on_hit has no name for AE_mie_vampire_winged.
+Error: No attack icon '//attacks/bloody-sword-one.png' found for 'AE_ele_Skeletal_Corpse_Archer'.
+Error: No attack icon '//attacks/bow-orcish-side.png' found for 'AE_ele_Skeletal_Corpse_Archer'.
+Error: No attack icon '//attacks/fallen-sword-one.png' found for 'AE_ele_Fallen_Rider'.
+Error: No attack icon '//attacks/fallen-scream-two.png' found for 'AE_ele_Fallen_Rider'.
+Error: No attack icon 'attacks/aura-fire.png' found for 'AE_chs_sylvians_Forest_Spirit'.
+Error: No attack icon '//attacks/fallen-sword-two.png' found for 'AE_ele_Fallen_Knight'.
+Error: No attack icon '//attacks/fallen-scream-two.png' found for 'AE_ele_Fallen_Knight'.
+Error: No attack icon '//attacks/fallen-sword-one.png' found for 'AE_ele_Fallen_Fighter'.
+Error: No attack icon '//attacks/fallen-scream-one.png' found for 'AE_ele_Fallen_Fighter'.
+Error: No attack icon 'attacks/sword.png' found for 'AE_stf_eventide_Dreadlord'.
+Error: No attack icon '//attacks/cleric-staff-bigger.png' found for 'AE_ele_Centaur_Arch_Priestess'.
+Error: No attack icon '//attacks/lightfocus.png' found for 'AE_ele_Centaur_Arch_Priestess'.
+Error: No attack icon '//attacks/lightbeam.png' found for 'AE_ele_Centaur_Arch_Priestess'.
+Error: No attack icon '//attacks/bloody-cleaver.png' found for 'AE_ele_Skeletal_Corpse_Eliminator'.
+Error: No attack icon '//attacks/head.png' found for 'AE_ele_Skeletal_Corpse_Eliminator'.
+Error: No attack icon '//attacks/viking-hatchet-dagger.png' found for 'AE_ele_Viking_Merkis'.
+Error: No attack icon '//attacks/viking-hatchet.png' found for 'AE_ele_Viking_Merkis'.
+Error: No attack icon '//attacks/viking-axe-one.png' found for 'AE_ele_Viking_Skarpskytter'.
+Error: No attack icon '//attacks/bow-short-reinforced.png' found for 'AE_ele_Viking_Skarpskytter'.
+Error: No attack icon '//attacks/bow-fire-reinforced.png' found for 'AE_ele_Viking_Skarpskytter'.
+Error: No attack icon '//attacks/fallen-mace-one.png' found for 'AE_ele_Fallen_Shieldbearer'.
+Error: No attack icon '//attacks/fallen-shield-one.png' found for 'AE_ele_Fallen_Shieldbearer'.
+Error: No attack icon '//attacks/fallen-dagger-one.png' found for 'AE_ele_Fallen_Enforcer'.
+Error: No attack icon '//attacks/fallen-dagger-poisin-one.png' found for 'AE_ele_Fallen_Enforcer'.
+Error: No attack icon '//attacks/fallen-scream-one.png' found for 'AE_ele_Fallen_Enforcer'.
+Error: No attack icon '//attacks/dark-elf-blade.png' found for 'AE_ele_Centaur_Spear_Fighter'.
+Error: No attack icon '//attacks/graft_spear.png' found for 'AE_ele_Centaur_Spear_Fighter'.
+Error: No attack icon '//attacks/trample.png' found for 'AE_ele_Centaur_Spear_Fighter'.
+Warning: Weapon special damage has no name for AE_mrc_refugees_Hoplite.
+Error: No attack icon '//attacks/fallen-sword-two.png' found for 'AE_ele_Fallen_Revenger'.
+Error: No attack icon '//attacks/fallen-sword-flail-one.png' found for 'AE_ele_Fallen_Revenger'.
+Error: No attack icon '//attacks/fallen-scream-two.png' found for 'AE_ele_Fallen_Revenger'.
+Error: No attack icon '//attacks/dark-elf-blade.png' found for 'AE_ele_Centaur_Warrior'.
+Error: No attack icon '//attacks/shield-centaur-smaller.png' found for 'AE_ele_Centaur_Warrior'.
+Error: No attack icon '//attacks/hoof-bmr.png' found for 'AE_ele_Centaur_Warrior'.
+Warning: Weapon special damage has no name for AE_mrc_refugees_Sarissan.
+Warning: Missing image for unit AE_mag_bug_3827(unit_type).
+Error: No attack icon 'attacks/dummy.png' found for 'AE_mag_bug_3827'.
+Warning: Weapon special heal_on_hit has no name for AE_mie_vampire_count.
+Error: No attack icon '//attacks/dagger-undead.png' found for 'AE_ele_Centaur_Huntress'.
+Error: No attack icon '//attacks/bow-silver-side.png' found for 'AE_ele_Centaur_Huntress'.
+Error: No attack icon '//attacks/viking-ship-crew-two.png' found for 'AE_ele_Viking_Oseberg'.
+Error: No attack icon '//attacks/viking-ship-bow-two.png' found for 'AE_ele_Viking_Oseberg'.
+Error: No attack icon '//attacks/viking-ship-fire-bow-one.png' found for 'AE_ele_Viking_Oseberg'.
+Error: No attack icon '//attacks/viking-axe-two.png' found for 'AE_ele_Viking_Stor_Oks'.
+Error: No attack icon '//attacks/viking-shield.png' found for 'AE_ele_Viking_Stor_Oks'.
+Error: No attack icon '//attacks/viking-hatchet.png' found for 'AE_ele_Viking_Stor_Oks'.
+Error: No attack icon '//attacks/viking-axe-three.png' found for 'AE_ele_Viking_Jarl'.
+Error: No attack icon '//attacks/sword-human.png' found for 'AE_ele_Viking_Jarl'.
+Error: No attack icon '//attacks/viking-hatchet.png' found for 'AE_ele_Viking_Jarl'.
+Error: No attack icon '//attacks/fist-skeletal.png' found for 'AE_ele_Skeletal_Corpse_Mage'.
+Error: No attack icon '//attacks/fireball-red.png' found for 'AE_ele_Skeletal_Corpse_Mage'.
+Error: No attack icon 'attacks/aura-fire.png' found for 'AE_fut_welkin_Solar_Empyrean'.
+Error: No attack icon '//attacks/glaive.png' found for 'AE_ele_Centaur_Guard'.
+Error: No attack icon '//attacks/fist-human-normal.png' found for 'AE_ele_Centaur_Guard'.
+Error: No attack icon '//attacks/pike.png' found for 'AE_ele_Centaur_Guard'.
+Error: No attack icon '//attacks/bloody-sword-two.png' found for 'AE_ele_Skeletal_Lich_Tyrant'.
+Error: No attack icon '//attacks/chaosmissiles.png' found for 'AE_ele_Skeletal_Lich_Tyrant'.
+Error: No attack icon 'attacks/aura-fire.png' found for 'AE_chs_quenoth_Quenoth_Sun_Enchantress'.
+Warning: Weapon special heal_on_hit has no name for AE_mie_vampire_dark_archer.
+Error: No attack icon 'attacks/claws-wooden.png' found for 'AE_chs_elementals_Vine_Slayer'.
+Error: No attack icon '//attacks/fist-skeletal-dark.png' found for 'AE_ele_Skeletal_Corpse'.
+Error: No attack icon '//attacks/gladius.png' found for 'AE_ele_Viking_Sverd_Kriger'.
+Error: No attack icon '//attacks/shield_polished.png' found for 'AE_ele_Viking_Sverd_Kriger'.
+Error: No attack icon '//attacks/bow-side.png' found for 'AE_ele_Viking_Sverd_Kriger'.
+Warning: Weapon special heal_on_hit has no name for AE_mie_vampire_night_angel.
+Error: No attack icon 'attacks/claws-wooden.png' found for 'AE_chs_elementals_Vine_Beast'.
+Warning: Weapon special heal_on_hit has no name for AE_mie_vampire_prince.
+Error: No attack icon '//attacks/bloody-glaive.png' found for 'AE_ele_Skeletal_Guard'.
+Error: No attack icon '//attacks/graft_spear.png' found for 'AE_ele_Skeletal_Guard'.
+Error: No attack icon '//attacks/fallen-sword-three.png' found for 'AE_ele_Fallen_Lord'.
+Error: No attack icon '//attacks/fallen-scream-three.png' found for 'AE_ele_Fallen_Lord'.
+Error: No attack icon 'attacks/aura-fire.png' found for 'AE_chs_quenoth_Quenoth_Sun_Priestess'.
+Error: No attack icon '//attacks/bloody-axe.png' found for 'AE_ele_Skeletal_Horse_Rider'.
+Error: No attack icon '//attacks/quarterstaff-orange.png' found for 'AE_ele_Centaur_Enchantress'.
+Error: No attack icon '//attacks/tornado-bigger.png' found for 'AE_ele_Centaur_Enchantress'.
+Error: No attack icon '//attacks/thorns-bigger.png' found for 'AE_ele_Centaur_Enchantress'.
+Error: No attack icon '//attacks/herbs.png' found for 'AE_ele_Centaur_Enchantress'.
+Error: No attack icon '//attacks/fangs-animal.png' found for 'AE_ele_Fallen_Tamer'.
+Error: No attack icon '//attacks/tail-daemon-darkblue.png' found for 'AE_ele_Fallen_Tamer'.
+Error: No attack icon '//attacks/fallen-scream-one.png' found for 'AE_ele_Fallen_Tamer'.
+Warning: Weapon special damage has no name for AE_mrc_refugees_Protector.
+Warning: Weapon special heal_on_hit has no name for AE_mie_vampire_fighter.
+Error: No attack icon '//attacks/touch-undead-fire.png' found for 'AE_ele_Skeletal_Corpse_Burner'.
+Error: No attack icon '//attacks/fireball-summoner-se.png' found for 'AE_ele_Skeletal_Corpse_Burner'.
+Error: No attack icon '//attacks/viking-ship-crew-one.png' found for 'AE_ele_Viking_Skuldelev'.
+Error: No attack icon '//attacks/viking-ship-bow-one.png' found for 'AE_ele_Viking_Skuldelev'.
+Error: No attack icon '//attacks/bloody-sword-one.png' found for 'AE_ele_Skeletal_Corpse_Headhunter'.
+Error: No attack icon '//attacks/bow-orcish-side.png' found for 'AE_ele_Skeletal_Corpse_Headhunter'.
+Warning: Weapon special damage has no name for AE_ele_Skeletal_Corpse_Headhunter.
+Warning: Weapon special heal_on_hit has no name for AE_mie_vampire_grandmaster.
+Warning: Weapon special damage has no name for AE_mrc_refugees_Phalanx.
+Error: No attack icon '//attacks/staff-ruby.png' found for 'AE_ele_Skeletal_Sorceress'.
+Error: No attack icon '//attacks/forest-chill.png' found for 'AE_ele_Skeletal_Sorceress'.
+Error: No attack icon '//attacks/dark-missile-se.png' found for 'AE_ele_Skeletal_Sorceress'.
+Error: No attack icon '//attacks/fallen-sword-three.png' found for 'AE_ele_Fallen_Purgator'.
+Error: No attack icon '//attacks/fallen-sword-flail-two.png' found for 'AE_ele_Fallen_Purgator'.
+Error: No attack icon '//attacks/fallen-scream-three.png' found for 'AE_ele_Fallen_Purgator'.
+Error: No attack icon '//attacks/fallen-skull-sword-three.png' found for 'AE_ele_Fallen_Decapitator'.
+Error: No attack icon '//attacks/fallen-scream-three.png' found for 'AE_ele_Fallen_Decapitator'.
+Error: No attack icon '//attacks/bloody-claw.png' found for 'AE_ele_Skeletal_Viper'.
+Error: No attack icon '//attacks/forest-chill.png' found for 'AE_ele_Skeletal_Viper'.
+Error: No attack icon '//attacks/viking-hatchet.png' found for 'AE_ele_Viking_Snikskytter'.
+Error: No attack icon '//attacks/bow-short.png' found for 'AE_ele_Viking_Snikskytter'.
+Error: No attack icon '//attacks/bow-fire-short.png' found for 'AE_ele_Viking_Snikskytter'.
+Error: No attack icon '//attacks/bloody-dagger.png' found for 'AE_ele_Skeletal_Lich_Adept'.
+Error: No attack icon '//attacks/staff-necromantic.png' found for 'AE_ele_Skeletal_Lich_Adept'.
+Error: No attack icon '//attacks/forest-chill.png' found for 'AE_ele_Skeletal_Lich_Adept'.
+Error: No attack icon '//attacks/bloody-sword-three.png' found for 'AE_ele_Skeletal_Banner_Bone'.
+Error: No attack icon '//attacks/bloody-glaive.png' found for 'AE_ele_Skeletal_Banner_Bone'.
+Error: No attack icon '//attacks/divine-glaive.png' found for 'AE_ele_Centaur_Divine'.
+Error: No attack icon '//attacks/glaive.png' found for 'AE_ele_Centaur_Divine'.
+Error: No attack icon '//attacks/pike.png' found for 'AE_ele_Centaur_Divine'.
+Error: No attack icon '//attacks/viking-spear-three.png' found for 'AE_ele_Viking_Spyd_Skjold'.
+Error: No attack icon '//attacks/viking-shield.png' found for 'AE_ele_Viking_Spyd_Skjold'.
+Error: No attack icon '//attacks/viking-hatchet.png' found for 'AE_ele_Viking_Spyd_Skjold'.
+Error: No attack icon '//attacks/fallen-mace-even-bigger.png' found for 'AE_ele_Fallen_Master'.
+Error: No attack icon '//attacks/fallen-meteorite-one.png' found for 'AE_ele_Fallen_Master'.
+Error: No attack icon '//attacks/fallen-skull-sword-two.png' found for 'AE_ele_Fallen_Slayer'.
+Error: No attack icon '//attacks/fallen-scream-two.png' found for 'AE_ele_Fallen_Slayer'.
+Error: No attack icon '//attacks/bloody-claw.png' found for 'AE_ele_Skeletal_Creep'.
+Warning: Weapon special damage has no name for AE_mrc_refugees_Deadeye.
+Error: No attack icon '//attacks/viking-doubleaxe.png' found for 'AE_ele_Viking_Hersir'.
+Error: No attack icon '//attacks/viking-hatchet.png' found for 'AE_ele_Viking_Hersir'.
+Error: No attack icon '//attacks/fallen-mace-even-bigger.png' found for 'AE_ele_Fallen_Shieldmaster'.
+Error: No attack icon '//attacks/fallen-shield-two.png' found for 'AE_ele_Fallen_Shieldmaster'.
+Error: No attack icon '//attacks/bloody-glaive.png' found for 'AE_ele_Skeletal_Spear_Fighter'.
+Error: No attack icon '//attacks/viking-axe-one.png' found for 'AE_ele_Viking_Thegn'.
+Error: No attack icon '//attacks/viking-hatchet.png' found for 'AE_ele_Viking_Thegn'.
+Error: No attack icon '//attacks/bloody-sword-one.png' found for 'AE_ele_Skeletal_Corpse_Bone_Shooter'.
+Error: No attack icon '//attacks/bow-orcish-side.png' found for 'AE_ele_Skeletal_Corpse_Bone_Shooter'.
+Warning: Weapon special damage has no name for AE_ele_Skeletal_Corpse_Bone_Shooter.
+Error: No attack icon '//attacks/bloody-sword-three.png' found for 'AE_ele_Skeletal_Lich_King'.
+Error: No attack icon '//attacks/staff-cursed.png' found for 'AE_ele_Skeletal_Lich_King'.
+Error: No attack icon '//attacks/forest-chill.png' found for 'AE_ele_Skeletal_Lich_King'.
+Warning: Weapon special damage has no name for AE_rhy_mh_Falcontrainer.
+Error: No attack icon '//attacks/viking-ship-crew-three.png' found for 'AE_ele_Viking_Gokstad'.
+Error: No attack icon '//attacks/viking-ship-bow-three.png' found for 'AE_ele_Viking_Gokstad'.
+Error: No attack icon '//attacks/viking-ship-fire-bow-two.png' found for 'AE_ele_Viking_Gokstad'.
+Error: No attack icon '//attacks/fallen-mace-magic.png' found for 'AE_ele_Fallen_Supreme_Lord'.
+Error: No attack icon '//attacks/fallen-meteorite-two.png' found for 'AE_ele_Fallen_Supreme_Lord'.
+Warning: Weapon special damage has no name for AE_mrc_refugees_Sniper.
+Error: No attack icon '//attacks/sword-elven.png' found for 'AE_ele_Centaur_Fighter'.
+Error: No attack icon '//attacks/trample.png' found for 'AE_ele_Centaur_Fighter'.
+Error: No attack icon '//attacks/divine-pike.png' found for 'AE_ele_Centaur_Sentinel'.
+Error: No attack icon '//attacks/shield-centaur-smaller.png' found for 'AE_ele_Centaur_Sentinel'.
+Error: No attack icon '//attacks/javelin-human.png' found for 'AE_ele_Centaur_Sentinel'.
+Warning: Weapon special heal_on_hit has no name for AE_mie_vampire_shadow_fighter.
+Error: No attack icon '//attacks/viking-ship-crew-four.png' found for 'AE_ele_Viking_Roskilde'.
+Error: No attack icon '//attacks/viking-ship-bow-three.png' found for 'AE_ele_Viking_Roskilde'.
+Error: No attack icon '//attacks/viking-ship-fire-bow-two.png' found for 'AE_ele_Viking_Roskilde'.
+Error: No attack icon '//attacks/divine-glaive.png' found for 'AE_ele_Centaur_Guardian'.
+Error: No attack icon '//attacks/shield-centaur.png' found for 'AE_ele_Centaur_Guardian'.
+Error: No attack icon '//attacks/javelin-human.png' found for 'AE_ele_Centaur_Guardian'.
+Warning: Weapon special chance_to_hit has no name for AE_arc_south_seas_Seahag.
+Error: No attack icon '//attacks/viking-spear-two.png' found for 'AE_ele_Viking_Ster'.
+Error: No attack icon '//attacks/bow-short.png' found for 'AE_ele_Viking_Ster'.
+Error: No attack icon '//attacks/greatsword-elven.png' found for 'AE_ele_Centaur_Captain'.
+Error: No attack icon '//attacks/pike.png' found for 'AE_ele_Centaur_Captain'.
+Error: No attack icon '//attacks/hoof-bmr.png' found for 'AE_ele_Centaur_Captain'.
+Error: No attack icon '//attacks/graft_spear.png' found for 'AE_ele_Centaur_Captain'.
+Warning: Weapon special damage has no name for AE_mrc_refugees_Defender.
+Error: No attack icon '//attacks/fallen-staff.png' found for 'AE_ele_Fallen_Inquisitor'.
+Error: No attack icon '//attacks/fallen-energy-blast-two.png' found for 'AE_ele_Fallen_Inquisitor'.
+Warning: Weapon special heal_on_hit has no name for AE_mie_vampire_savant.
+Error: No attack icon '//attacks/viking-axe-one.png' found for 'AE_ele_Viking_Oks_Kriger'.
+Error: No attack icon '//attacks/shield_polished.png' found for 'AE_ele_Viking_Oks_Kriger'.
+Warning: Weapon special damage has no name for AE_mrc_refugees_Arsonist.
+Warning: Weapon special damage has no name for AE_rhy_mh_Eaglemaster.
+Error: No attack icon '//attacks/viking-spear-three.png' found for 'AE_ele_Viking_Jagerfly'.
+Error: No attack icon '//attacks/bow-short-reinforced.png' found for 'AE_ele_Viking_Jagerfly'.
+Error: No attack icon '//attacks/viking-hatchet-dagger.png' found for 'AE_ele_Viking_Radningar'.
+Error: No attack icon '//attacks/viking-hatchet.png' found for 'AE_ele_Viking_Radningar'.
+Error: No attack icon '//attacks/viking-spear-two.png' found for 'AE_ele_Viking_Stor_Spyd'.
+Error: No attack icon '//attacks/viking-shield.png' found for 'AE_ele_Viking_Stor_Spyd'.
+Error: No attack icon '//attacks/viking-hatchet.png' found for 'AE_ele_Viking_Stor_Spyd'.
+Error: No attack icon '//attacks/divine-spear.png' found for 'AE_ele_Centaur_Pegasus'.
+Error: No attack icon '//attacks/heater-shield.png' found for 'AE_ele_Centaur_Pegasus'.
+Error: No attack icon '//attacks/javelin-human.png' found for 'AE_ele_Centaur_Pegasus'.
+Error: No attack icon '//attacks/viking-axe-two.png' found for 'AE_ele_Viking_Valnir'.
+Error: No attack icon '//attacks/viking-hatchet.png' found for 'AE_ele_Viking_Valnir'.
+Warning: Weapon special damage has no name for AE_mrc_refugees_Focul.
+Warning: Weapon special damage has no name for AE_mrc_refugees_Longboat.
+Error: No attack icon '//attacks/mace-wild.png' found for 'AE_ele_Fallen_Guard'.
+Error: No attack icon '//attacks/fallen-shield-one.png' found for 'AE_ele_Fallen_Guard'.
+Warning: Weapon special heal_on_hit has no name for AE_mie_vampire_wind_chaser.
+Warning: Weapon special damage has no name for AE_rhy_de_GreatassassinB.
+Warning: Weapon special chance_to_hit has no name for AE_rhy_de_GreatassassinB.
+Warning: Weapon special disable has no name for AE_rhy_de_GreatassassinB.
+Error: No attack icon '//attacks/fangs-animal.png' found for 'AE_ele_Fallen_Beast'.
+Error: No attack icon '//attacks/tail-daemon-darkblue.png' found for 'AE_ele_Fallen_Beast'.
+Error: No attack icon '//attacks/fallen-scream-two.png' found for 'AE_ele_Fallen_Beast'.
+Warning: Weapon special heal_on_hit has no name for AE_mie_vampire_lunatic.
+Warning: Weapon special heal_on_hit has no name for AE_mie_vampire_commander.
+Error: No attack icon '//attacks/bloody-sword-two.png' found for 'AE_ele_Skeletal_Lich_Lord'.
+Error: No attack icon '//attacks/staff-necromantic.png' found for 'AE_ele_Skeletal_Lich_Lord'.
+Error: No attack icon '//attacks/forest-chill.png' found for 'AE_ele_Skeletal_Lich_Lord'.
+Error: No attack icon '//attacks/bloody-astrale-blade.png' found for 'AE_ele_Skeletal_Lich_Overlord'.
+Error: No attack icon '//attacks/staff-royal-ruby.png' found for 'AE_ele_Skeletal_Lich_Overlord'.
+Error: No attack icon '//attacks/forest-chill.png' found for 'AE_ele_Skeletal_Lich_Overlord'.
+Error: No attack icon '//attacks/glaive.png' found for 'AE_ele_Centaur_Spearmaiden'.
+Error: No attack icon '//attacks/shield-centaur.png' found for 'AE_ele_Centaur_Spearmaiden'.
+Error: No attack icon '//attacks/javelin-human.png' found for 'AE_ele_Centaur_Spearmaiden'.
+Warning: Weapon special damage has no name for AE_mrc_refugees_Sentry.
+Warning: Weapon special heal_on_hit has no name for AE_mie_vampire_night_warrior.
+Error: No attack icon '//attacks/greatsword-elven.png' found for 'AE_ele_Centaur_Elite'.
+Error: No attack icon '//attacks/shield-centaur.png' found for 'AE_ele_Centaur_Elite'.
+Error: No attack icon '//attacks/hoof-bmr.png' found for 'AE_ele_Centaur_Elite'.
+Error: No attack icon '//attacks/viking-hatchet.png' found for 'AE_ele_Viking_Jagare'.
+Error: No attack icon '//attacks/bow-side.png' found for 'AE_ele_Viking_Jagare'.
+Error: No attack icon '//attacks/graft-spear.png' found for 'AE_ele_Centaur_Warden'.
+Error: No attack icon '//attacks/javelin-human.png' found for 'AE_ele_Centaur_Warden'.
+Error: No attack icon '//attacks/fangs-animal.png' found for 'AE_ele_Fallen_Dragon_Rider'.
+Error: No attack icon '//attacks/tail-daemon-darkblue.png' found for 'AE_ele_Fallen_Dragon_Rider'.
+Error: No attack icon '//attacks/fallen-scream-three.png' found for 'AE_ele_Fallen_Dragon_Rider'.
+Warning: Weapon special chance_to_hit has no name for AE_efm_imperialists_Sapper.
+Error: No attack icon '//attacks/bloody-cleaver.png' found for 'AE_ele_Skeletal_Corpse_Amputator'.
+Error: No attack icon '//attacks/head.png' found for 'AE_ele_Skeletal_Corpse_Amputator'.
+Error: No attack icon '//attacks/fallen-mace-magic.png' found for 'AE_ele_Fallen_Overlord'.
+Error: No attack icon '//attacks/fallen-meteorite-two.png' found for 'AE_ele_Fallen_Overlord'.
+Error: No attack icon '//attacks/viking-axe-three.png' found for 'AE_ele_Viking_High_King'.
+Error: No attack icon '//attacks/sword-human-three.png' found for 'AE_ele_Viking_High_King'.
+Error: No attack icon '//attacks/viking-hatchet.png' found for 'AE_ele_Viking_High_King'.
+Error: No attack icon 'attacks/claws-wooden.png' found for 'AE_chs_elementals_Vine_Leaper'.
+Error: No attack icon '//attacks/fallen-staff.png' found for 'AE_ele_Fallen_Asperser'.
+Error: No attack icon '//attacks/fallen-energy-blast-one.png' found for 'AE_ele_Fallen_Asperser'.
+Error: No attack icon '//attacks/fallen-sword-three.png' found for 'AE_ele_Fallen_Scorch_King'.
+Error: No attack icon '//attacks/fallen-flaming-sword.png' found for 'AE_ele_Fallen_Scorch_King'.
+Error: No attack icon '//attacks/fallen-scream-three.png' found for 'AE_ele_Fallen_Scorch_King'.
+Error: No attack icon 'attacks/aura-fire.png' found for 'AE_chs_sylvians_Dryad'.
+Error: No attack icon '//attacks/bloody-deathblade-axe.png' found for 'AE_ele_Skeletal_Horse_Fighter'.
+Error: No attack icon '//attacks/rusty-lance.png' found for 'AE_ele_Skeletal_Horse_Fighter'.
+Warning: Weapon special damage has no name for AE_mrc_oracles_Scholar.
+Warning: Weapon special damage has no name for AE_mrc_refugees_Trireme.
+Error: No attack icon 'attacks/aura-fire.png' found for 'AE_chs_sylvians_Fire_Faerie'.

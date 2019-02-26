@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+
+<html class="no-js wmlunits wmlunits-tree" lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montaga%7COpen+Sans:400,400i,700,700i" type="text/css" />
+	<link rel="icon" type="image/png" href="https://www.wesnoth.org/wesmere/img/favicon-32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="https://www.wesnoth.org/wesmere/img/favicon-16.png" sizes="16x16" />
+	<link rel="stylesheet" type="text/css" href="https://www.wesnoth.org/wesmere/css/wesmere-1.1.1.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.wesnoth.org/wesmere/css/wmlunits-1.1.1.css" />
+	<script src="https://www.wesnoth.org/wesmere/js/modernizr.js"></script>
+	<script type="text/javascript" src="../..//menu.js"></script>
+	<title>Default - Wesnoth Units Database</title>
+</head>
+
+<body>
+
+<div id="main">
+
+<div id="nav" role="banner">
+<div class="centerbox">
+
+	<div id="logo">
+		<a href="https://www.wesnoth.org/" aria-label="Wesnoth logo"></a>
+	</div>
+
+	<ul id="navlinks">
+		<li><a href="https://units.wesnoth.org/">Units</a></li>
+		<li><a href="https://www.wesnoth.org/">Home</a></li>
+		<li><a href="https://forums.wesnoth.org/viewforum.php?f=62">News</a></li>
+		<li><a href="https://wiki.wesnoth.org/Play">Play</a></li>
+		<li><a href="https://wiki.wesnoth.org/Create">Create</a></li>
+		<li><a href="https://forums.wesnoth.org/">Forums</a></li>
+		<li><a href="https://wiki.wesnoth.org/Project">About</a></li>
+	</ul>
+
+	<div id="sitesearch" role="search">
+		<form method="get" action="https://wiki.wesnoth.org/">
+			<input id="searchbox" type="search" name="search" placeholder="Search" title="Search the wiki [Alt+Shift+f]" accesskey="f" />
+			<span id="searchbox-controls">
+				<button id="search-go" class="search-button" type="submit" title="Search">
+					<i class="search-icon" aria-hidden="true"></i>
+					<span class="sr-label">Search the wiki</span>
+				</button>
+			</span>
+		</form>
+	</div>
+
+	<div class="reset"></div>
+</div>
+</div>
+
+<div id="content" role="main"><div class="navbar"><ul class="navbar" role="menu"><li class="popupcontainer" role="menuitem" aria-haspopup="true"><a class=" popuptrigger" href="#">Campaign</a><div id="campaigns_menu" class="popupmenu" role="menu" aria-label="Campaign"><div class="popupheader">Campaign</div><ul>PLACE CAMPAIGNS HERE
+</ul></div></li><li class="popupcontainer" role="menuitem" aria-haspopup="true"><a class=" popuptrigger" href="#">Era</a><div id="eras_menu" class="popupmenu" role="menu" aria-label="Era"><div class="popupheader">Era</div><ul>PLACE ERAS HERE
+</ul></div></li><li class="popupcontainer" role="menuitem" aria-haspopup="true"><a class=" popuptrigger" href="#">Factions</a><div id="races_menu" class="popupmenu" role="menu" aria-label="Factions"><div class="popupheader">Factions</div><ul><li><a href="../ca_ES/era_default.html#Drakes" role="menuitem">Drakes</a></li><li><a href="../ca_ES/era_default.html#Knalgan%20Alliance" role="menuitem">Knalgan Alliance</a></li><li><a href="../ca_ES/era_default.html#Loyalists" role="menuitem">Loyalists</a></li><li><a href="../ca_ES/era_default.html#Northerners" role="menuitem">Northerners</a></li><li><a href="../ca_ES/era_default.html#Rebels" role="menuitem">Rebels</a></li><li><a href="../ca_ES/era_default.html#Undead" role="menuitem">Undead</a></li></ul></div></li><li class="popupcontainer" role="menuitem" aria-haspopup="true"><a class=" popuptrigger" href="#">Language</a><div id="languages_menu" class="popupmenu" role="menu" aria-label="Language"><div class="popupheader">Language</div><table><tr><td><a href="../af_ZA/era_default.html" role="menuitem" title="Afrikaans">af_ZA</a></td><td><a href="../ang_GB%40latin/era_default.html" role="menuitem" title="Englisc">ang_GB@latin</a></td><td><a href="../ar_AR/era_default.html" role="menuitem" title="العربية (al-ʿArabiyyah)">ar_AR</a></td><td><a href="../ast_ES/era_default.html" role="menuitem" title="Asturianu">ast_ES</a></td><td><a href="../bg_BG/era_default.html" role="menuitem" title="Български (Bulgarski)">bg_BG</a></td></tr><tr><td><a href="../ca_ES/era_default.html" role="menuitem" title="Català">ca_ES</a></td><td><a href="../ca_ES%40valencia/era_default.html" role="menuitem" title="Valencià (català meridional)">ca_ES@valencia</a></td><td><a href="../cs_CZ/era_default.html" role="menuitem" title="Čeština">cs_CZ</a></td><td><a href="../da_DK/era_default.html" role="menuitem" title="Dansk">da_DK</a></td><td><a href="../de_DE/era_default.html" role="menuitem" title="Deutsch">de_DE</a></td></tr><tr><td><a href="../el_GR/era_default.html" role="menuitem" title="Ελληνικά (Ellinika)">el_GR</a></td><td><a href="../en%40shaw/era_default.html" role="menuitem" title="·𐑖𐑭𐑝𐑾𐑯 ·𐑰𐑙𐑜𐑤𐑦𐑖 (Shavian English)">en@shaw</a></td><td><a href="../en_GB/era_default.html" role="menuitem" title="English [GB]">en_GB</a></td><td><a href="../en_US/era_default.html" role="menuitem" title="English [US]">en_US</a></td><td><a href="../eo_XX/era_default.html" role="menuitem" title="Esperanto">eo_XX</a></td></tr><tr><td><a href="../es_ES/era_default.html" role="menuitem" title="Español">es_ES</a></td><td><a href="../et_EE/era_default.html" role="menuitem" title="Eesti">et_EE</a></td><td><a href="../eu_ES/era_default.html" role="menuitem" title="Euskera">eu_ES</a></td><td><a href="../fi_FI/era_default.html" role="menuitem" title="Suomi">fi_FI</a></td><td><a href="../fr_FR/era_default.html" role="menuitem" title="Français">fr_FR</a></td></tr><tr><td><a href="../fur_IT/era_default.html" role="menuitem" title="Furlan">fur_IT</a></td><td><a href="../ga_IE/era_default.html" role="menuitem" title="Gaeilge">ga_IE</a></td><td><a href="../gd_GB/era_default.html" role="menuitem" title="Gàidhlig">gd_GB</a></td><td><a href="../gl_ES/era_default.html" role="menuitem" title="Galego">gl_ES</a></td><td><a href="../he_IL/era_default.html" role="menuitem" title="עברית (Ivrit)">he_IL</a></td></tr><tr><td><a href="../hr_HR/era_default.html" role="menuitem" title="Hrvatski">hr_HR</a></td><td><a href="../hu_HU/era_default.html" role="menuitem" title="Magyar">hu_HU</a></td><td><a href="../id_ID/era_default.html" role="menuitem" title="Bahasa Indonesia">id_ID</a></td><td><a href="../is_IS/era_default.html" role="menuitem" title="Íslenska">is_IS</a></td><td><a href="../it_IT/era_default.html" role="menuitem" title="Italiano">it_IT</a></td></tr><tr><td><a href="../ja_JP/era_default.html" role="menuitem" title="日本語 (Nihongo)">ja_JP</a></td><td><a href="../ko_KR/era_default.html" role="menuitem" title="한국어 (Hangugeo)">ko_KR</a></td><td><a href="../la_IT/era_default.html" role="menuitem" title="Latina">la_IT</a></td><td><a href="../lt_LT/era_default.html" role="menuitem" title="Lietuvių">lt_LT</a></td><td><a href="../lv_LV/era_default.html" role="menuitem" title="Latviešu">lv_LV</a></td></tr><tr><td><a href="../mk_MK/era_default.html" role="menuitem" title="Македонски (Makedonski)">mk_MK</a></td><td><a href="../mr_IN/era_default.html" role="menuitem" title="मराठी (Marāṭhī)">mr_IN</a></td><td><a href="../nb_NO/era_default.html" role="menuitem" title="Norsk bokmål">nb_NO</a></td><td><a href="../nl_NL/era_default.html" role="menuitem" title="Nederlands">nl_NL</a></td><td><a href="../pl_PL/era_default.html" role="menuitem" title="Polski">pl_PL</a></td></tr><tr><td><a href="../pt_BR/era_default.html" role="menuitem" title="Português do Brasil">pt_BR</a></td><td><a href="../pt_PT/era_default.html" role="menuitem" title="Português">pt_PT</a></td><td><a href="../racv/era_default.html" role="menuitem" title="Idioma de la RACV">racv</a></td><td><a href="../ro_RO/era_default.html" role="menuitem" title="Română">ro_RO</a></td><td><a href="../ru_RU/era_default.html" role="menuitem" title="Русский (Russkij)">ru_RU</a></td></tr><tr><td><a href="../sk_SK/era_default.html" role="menuitem" title="Slovenčina">sk_SK</a></td><td><a href="../sl_SI/era_default.html" role="menuitem" title="Slovenščina">sl_SI</a></td><td><a href="../sr_RS/era_default.html" role="menuitem" title="Српски">sr_RS</a></td><td><a href="../sr_RS%40ijekavian/era_default.html" role="menuitem" title="Српски (ијекавски)">sr_RS@ijekavian</a></td><td><a href="../sr_RS%40ijekavianlatin/era_default.html" role="menuitem" title="Srpski (ijekavski latinica)">sr_RS@ijekavianlatin</a></td></tr><tr><td><a href="../sr_RS%40latin/era_default.html" role="menuitem" title="Srpski (latinica)">sr_RS@latin</a></td><td><a href="../sv_SE/era_default.html" role="menuitem" title="Svenska">sv_SE</a></td><td><a href="../tl_PH/era_default.html" role="menuitem" title="Filipino">tl_PH</a></td><td><a href="../tr_TR/era_default.html" role="menuitem" title="Türkçe">tr_TR</a></td><td><a href="../uk_UA/era_default.html" role="menuitem" title="Українська (Ukrayins’ka)">uk_UA</a></td></tr><tr><td><a href="../vi_VN/era_default.html" role="menuitem" title="Tiếng Việt">vi_VN</a></td><td><a href="../zh_CN/era_default.html" role="menuitem" title="简体中文 (Jiăntĭ Zhōngwén)">zh_CN</a></td><td><a href="../zh_TW/era_default.html" role="menuitem" title="繁體中文 (Fántǐ Zhōngwén)">zh_TW</a></td><td></td><td></td></tr></table></div></li><li class="overviewlink"><a href="../../overview.html">Build Report</a></li></ul></div>
+<script>
+wmlunits_menu_setup();
+</script><div class="main"><h1>Default</h1><table class="units">
+<colgroup><col class="col0" /><col class="col1" /><col class="col2" /><col class="col3" /><col class="col4" /><col class="col5" /></colgroup><tr>
+<th colspan="6" id="Drakes" class="raceheader"><a href="#Drakes">Drakes</a></th>
+</tr>
+<tr>
+<td class="empty"></td><td rowspan="2" class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Drake%20Burner.html" title="Id: Drake Burner">Drake Burner</a><br /><div class="pic"><a href="../../mainline/ca_ES/Drake%20Burner.html" title="Id: Drake Burner"><img src="../../pics/core%24images%24units%24drakes%24burner.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>21</td></tr><tr><th>HP:</th><td>42</td></tr><tr><th>XP:</th><td>43</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">7 &#215; 2 melee (blade)<br />6 &#215; 4 ranged (fire)</div></div></td>
+<td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Drake%20Flare.html" title="Id: Drake Flare">Drake Flare</a><br /><div class="pic"><a href="../../mainline/ca_ES/Drake%20Flare.html" title="Id: Drake Flare"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24drakes%24flare.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>35</td></tr><tr><th>HP:</th><td>55</td></tr><tr><th>XP:</th><td>80</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="abilities">leadership</div>
+<div class="attacks">8 &#215; 3 melee (blade)<br />6 &#215; 4 ranged (fire)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Drake%20Flameheart.html" title="Id: Drake Flameheart">Drake Flameheart</a><br /><div class="pic"><a href="../../mainline/ca_ES/Drake%20Flameheart.html" title="Id: Drake Flameheart"><img src="../../pics/core%24images%24units%24drakes%24flameheart.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>51</td></tr><tr><th>HP:</th><td>72</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="abilities">leadership</div>
+<div class="attacks">11 &#215; 3 melee (blade)<br />8 &#215; 4 ranged (fire)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Fire%20Drake.html" title="Id: Fire Drake">Fire Drake</a><br /><div class="pic"><a href="../../mainline/ca_ES/Fire%20Drake.html" title="Id: Fire Drake"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24drakes%24fire.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>35</td></tr><tr><th>HP:</th><td>63</td></tr><tr><th>XP:</th><td>80</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">9 &#215; 2 melee (blade)<br />7 &#215; 5 ranged (fire)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Inferno%20Drake.html" title="Id: Inferno Drake">Inferno Drake</a><br /><div class="pic"><a href="../../mainline/ca_ES/Inferno%20Drake.html" title="Id: Inferno Drake"><img src="../../pics/core%24images%24units%24drakes%24inferno.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>51</td></tr><tr><th>HP:</th><td>82</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">12 &#215; 2 melee (blade)<br />8 &#215; 6 ranged (fire)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td rowspan="2" class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Drake%20Clasher.html" title="Id: Drake Clasher">Drake Clasher</a><br /><div class="pic"><a href="../../mainline/ca_ES/Drake%20Clasher.html" title="Id: Drake Clasher"><img src="../../pics/core%24images%24units%24drakes%24clasher.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>19</td></tr><tr><th>HP:</th><td>43</td></tr><tr><th>XP:</th><td>45</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">5 &#215; 4 melee (blade)<br />6 &#215; 4 melee (pierce) (first strike)</div></div></td>
+<td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Drake%20Arbiter.html" title="Id: Drake Arbiter">Drake Arbiter</a><br /><div class="pic"><a href="../../mainline/ca_ES/Drake%20Arbiter.html" title="Id: Drake Arbiter"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24drakes%24arbiter.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>31</td></tr><tr><th>HP:</th><td>62</td></tr><tr><th>XP:</th><td>105</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">11 &#215; 3 melee (blade)<br />17 &#215; 2 melee (pierce) (first strike)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Drake%20Warden.html" title="Id: Drake Warden">Drake Warden</a><br /><div class="pic"><a href="../../mainline/ca_ES/Drake%20Warden.html" title="Id: Drake Warden"><img src="../../pics/core%24images%24units%24drakes%24warden.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>46</td></tr><tr><th>HP:</th><td>82</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">16 &#215; 3 melee (blade)<br />23 &#215; 2 melee (pierce) (first strike)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Drake%20Thrasher.html" title="Id: Drake Thrasher">Drake Thrasher</a><br /><div class="pic"><a href="../../mainline/ca_ES/Drake%20Thrasher.html" title="Id: Drake Thrasher"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24drakes%24slasher.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>31</td></tr><tr><th>HP:</th><td>66</td></tr><tr><th>XP:</th><td>95</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">8 &#215; 4 melee (blade)<br />6 &#215; 5 melee (pierce)<br />10 &#215; 3 melee (impact)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Drake%20Enforcer.html" title="Id: Drake Enforcer">Drake Enforcer</a><br /><div class="pic"><a href="../../mainline/ca_ES/Drake%20Enforcer.html" title="Id: Drake Enforcer"><img src="../../pics/core%24images%24units%24drakes%24enforcer.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>44</td></tr><tr><th>HP:</th><td>85</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">11 &#215; 4 melee (blade)<br />14 &#215; 3 melee (impact)<br />8 &#215; 5 melee (pierce)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Drake%20Fighter.html" title="Id: Drake Fighter">Drake Fighter</a><br /><div class="pic"><a href="../../mainline/ca_ES/Drake%20Fighter.html" title="Id: Drake Fighter"><img src="../../pics/core%24images%24units%24drakes%24fighter.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>17</td></tr><tr><th>HP:</th><td>39</td></tr><tr><th>XP:</th><td>42</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="attacks">7 &#215; 3 melee (blade)<br />3 &#215; 3 ranged (fire)</div></div></td>
+<td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Drake%20Warrior.html" title="Id: Drake Warrior">Drake Warrior</a><br /><div class="pic"><a href="../../mainline/ca_ES/Drake%20Warrior.html" title="Id: Drake Warrior"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24drakes%24warrior.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>30</td></tr><tr><th>HP:</th><td>60</td></tr><tr><th>XP:</th><td>70</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="attacks">11 &#215; 3 melee (blade)<br />5 &#215; 3 ranged (fire)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Drake%20Blademaster.html" title="Id: Drake Blademaster">Drake Blademaster</a><br /><div class="pic"><a href="../../mainline/ca_ES/Drake%20Blademaster.html" title="Id: Drake Blademaster"><img src="../../pics/core%24images%24units%24drakes%24blademaster.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>47</td></tr><tr><th>HP:</th><td>80</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="attacks">16 &#215; 3 melee (blade)<br />8 &#215; 3 ranged (fire)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Drake%20Glider.html" title="Id: Drake Glider">Drake Glider</a><br /><div class="pic"><a href="../../mainline/ca_ES/Drake%20Glider.html" title="Id: Drake Glider"><img src="../../pics/core%24images%24units%24drakes%24glider.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>16</td></tr><tr><th>HP:</th><td>32</td></tr><tr><th>XP:</th><td>35</td></tr><tr><th>MP:</th><td>8</td></tr></table>
+<div class="attacks">6 &#215; 2 melee (impact)<br />3 &#215; 3 ranged (fire) (marksman)</div></div></td>
+<td class="unitcell"><div class="l">L2</div><a href="../../mainline/ca_ES/Sky%20Drake.html" title="Id: Sky Drake">Sky Drake</a><br /><div class="pic"><a href="../../mainline/ca_ES/Sky%20Drake.html" title="Id: Sky Drake"><img src="../../pics/core%24images%24units%24drakes%24sky.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>30</td></tr><tr><th>HP:</th><td>45</td></tr><tr><th>XP:</th><td>80</td></tr><tr><th>MP:</th><td>9</td></tr></table>
+<div class="attacks">6 &#215; 3 melee (impact)<br />5 &#215; 3 ranged (fire) (marksman)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Hurricane%20Drake.html" title="Id: Hurricane Drake">Hurricane Drake</a><br /><div class="pic"><a href="../../mainline/ca_ES/Hurricane%20Drake.html" title="Id: Hurricane Drake"><img src="../../pics/core%24images%24units%24drakes%24hurricane.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>43</td></tr><tr><th>HP:</th><td>58</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>9</td></tr></table>
+<div class="attacks">8 &#215; 3 melee (impact)<br />8 &#215; 3 ranged (fire) (marksman)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td rowspan="2" class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Saurian%20Augur.html" title="Id: Saurian Augur">Saurian Augur</a><br /><div class="pic"><a href="../../mainline/ca_ES/Saurian%20Augur.html" title="Id: Saurian Augur"><img src="../../pics/core%24images%24units%24saurians%24augur%24augur.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>16</td></tr><tr><th>HP:</th><td>22</td></tr><tr><th>XP:</th><td>28</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="abilities">heals +4</div>
+<div class="attacks">4 &#215; 2 melee (impact)<br />5 &#215; 3 ranged (cold) (magical)</div></div></td>
+<td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Saurian%20Oracle.html" title="Id: Saurian Oracle">Saurian Oracle</a><br /><div class="pic"><a href="../../mainline/ca_ES/Saurian%20Oracle.html" title="Id: Saurian Oracle"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24saurians%24oracle%24oracle.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>27</td></tr><tr><th>HP:</th><td>29</td></tr><tr><th>XP:</th><td>100</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="abilities">heals +4</div>
+<div class="attacks">4 &#215; 3 melee (impact)<br />8 &#215; 3 ranged (cold) (magical)</div></div></td>
+<td class="empty"></td><td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Saurian%20Soothsayer.html" title="Id: Saurian Soothsayer">Saurian Soothsayer</a><br /><div class="pic"><a href="../../mainline/ca_ES/Saurian%20Soothsayer.html" title="Id: Saurian Soothsayer"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24saurians%24soothsayer%24soothsayer.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>27</td></tr><tr><th>HP:</th><td>29</td></tr><tr><th>XP:</th><td>100</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="abilities">cures, heals +8</div>
+<div class="attacks">5 &#215; 2 melee (impact)<br />6 &#215; 3 ranged (cold) (magical)</div></div></td>
+<td class="empty"></td><td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Saurian%20Skirmisher.html" title="Id: Saurian Skirmisher">Saurian Skirmisher</a><br /><div class="pic"><a href="../../mainline/ca_ES/Saurian%20Skirmisher.html" title="Id: Saurian Skirmisher"><img src="../../pics/core%24images%24units%24saurians%24skirmisher%24skirmisher.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>15</td></tr><tr><th>HP:</th><td>26</td></tr><tr><th>XP:</th><td>32</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="abilities">skirmisher</div>
+<div class="attacks">4 &#215; 4 melee (pierce)<br />4 &#215; 2 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L2</div><a href="../../mainline/ca_ES/Saurian%20Ambusher.html" title="Id: Saurian Ambusher">Saurian Ambusher</a><br /><div class="pic"><a href="../../mainline/ca_ES/Saurian%20Ambusher.html" title="Id: Saurian Ambusher"><img src="../../pics/core%24images%24units%24saurians%24ambusher%24ambusher.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>30</td></tr><tr><th>HP:</th><td>36</td></tr><tr><th>XP:</th><td>55</td></tr><tr><th>MP:</th><td>7</td></tr></table>
+<div class="abilities">skirmisher</div>
+<div class="attacks">6 &#215; 4 melee (pierce)<br />5 &#215; 2 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Saurian%20Flanker.html" title="Id: Saurian Flanker">Saurian Flanker</a><br /><div class="pic"><a href="../../mainline/ca_ES/Saurian%20Flanker.html" title="Id: Saurian Flanker"><img src="../../pics/core%24images%24units%24saurians%24flanker%24flanker.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>46</td></tr><tr><th>HP:</th><td>47</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>7</td></tr></table>
+<div class="abilities">skirmisher</div>
+<div class="attacks">8 &#215; 4 melee (pierce)<br />7 &#215; 2 ranged (pierce)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<th colspan="6" id="Knalgan Alliance" class="raceheader"><a href="#Knalgan%20Alliance">Knalgan Alliance</a></th>
+</tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Dwarvish%20Fighter.html" title="Id: Dwarvish Fighter">Dwarvish Fighter</a><br /><div class="pic"><a href="../../mainline/ca_ES/Dwarvish%20Fighter.html" title="Id: Dwarvish Fighter"><img src="../../pics/core%24images%24units%24dwarves%24fighter.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>16</td></tr><tr><th>HP:</th><td>38</td></tr><tr><th>XP:</th><td>41</td></tr><tr><th>MP:</th><td>4</td></tr></table>
+<div class="attacks">7 &#215; 3 melee (blade)<br />8 &#215; 2 melee (impact)</div></div></td>
+<td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Dwarvish%20Steelclad.html" title="Id: Dwarvish Steelclad">Dwarvish Steelclad</a><br /><div class="pic"><a href="../../mainline/ca_ES/Dwarvish%20Steelclad.html" title="Id: Dwarvish Steelclad"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24dwarves%24steelclad.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>32</td></tr><tr><th>HP:</th><td>59</td></tr><tr><th>XP:</th><td>74</td></tr><tr><th>MP:</th><td>4</td></tr></table>
+<div class="attacks">11 &#215; 3 melee (blade)<br />14 &#215; 2 melee (impact)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Dwarvish%20Lord.html" title="Id: Dwarvish Lord">Dwarvish Lord</a><br /><div class="pic"><a href="../../mainline/ca_ES/Dwarvish%20Lord.html" title="Id: Dwarvish Lord"><img src="../../pics/core%24images%24units%24dwarves%24lord.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>50</td></tr><tr><th>HP:</th><td>79</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>4</td></tr></table>
+<div class="attacks">15 &#215; 3 melee (blade)<br />19 &#215; 2 melee (impact)<br />10 &#215; 1 ranged (blade)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Dwarvish%20Guardsman.html" title="Id: Dwarvish Guardsman">Dwarvish Guardsman</a><br /><div class="pic"><a href="../../mainline/ca_ES/Dwarvish%20Guardsman.html" title="Id: Dwarvish Guardsman"><img src="../../pics/core%24images%24units%24dwarves%24guard.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>19</td></tr><tr><th>HP:</th><td>42</td></tr><tr><th>XP:</th><td>47</td></tr><tr><th>MP:</th><td>4</td></tr></table>
+<div class="abilities">steadfast</div>
+<div class="attacks">5 &#215; 3 melee (pierce)<br />5 &#215; 1 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Dwarvish%20Stalwart.html" title="Id: Dwarvish Stalwart">Dwarvish Stalwart</a><br /><div class="pic"><a href="../../mainline/ca_ES/Dwarvish%20Stalwart.html" title="Id: Dwarvish Stalwart"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24dwarves%24stalwart.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>32</td></tr><tr><th>HP:</th><td>54</td></tr><tr><th>XP:</th><td>85</td></tr><tr><th>MP:</th><td>4</td></tr></table>
+<div class="abilities">steadfast</div>
+<div class="attacks">7 &#215; 3 melee (pierce)<br />8 &#215; 1 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Dwarvish%20Sentinel.html" title="Id: Dwarvish Sentinel">Dwarvish Sentinel</a><br /><div class="pic"><a href="../../mainline/ca_ES/Dwarvish%20Sentinel.html" title="Id: Dwarvish Sentinel"><img src="../../pics/core%24images%24units%24dwarves%24sentinel.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>44</td></tr><tr><th>HP:</th><td>68</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>4</td></tr></table>
+<div class="abilities">steadfast</div>
+<div class="attacks">9 &#215; 3 melee (pierce)<br />11 &#215; 2 ranged (pierce)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Dwarvish%20Thunderer.html" title="Id: Dwarvish Thunderer">Dwarvish Thunderer</a><br /><div class="pic"><a href="../../mainline/ca_ES/Dwarvish%20Thunderer.html" title="Id: Dwarvish Thunderer"><img src="../../pics/core%24images%24units%24dwarves%24thunderer%24thunderer.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>17</td></tr><tr><th>HP:</th><td>34</td></tr><tr><th>XP:</th><td>40</td></tr><tr><th>MP:</th><td>4</td></tr></table>
+<div class="attacks">6 &#215; 2 melee (blade)<br />18 &#215; 1 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Dwarvish%20Thunderguard.html" title="Id: Dwarvish Thunderguard">Dwarvish Thunderguard</a><br /><div class="pic"><a href="../../mainline/ca_ES/Dwarvish%20Thunderguard.html" title="Id: Dwarvish Thunderguard"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24dwarves%24thunderguard%24thunderguard.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>30</td></tr><tr><th>HP:</th><td>44</td></tr><tr><th>XP:</th><td>95</td></tr><tr><th>MP:</th><td>4</td></tr></table>
+<div class="attacks">6 &#215; 3 melee (blade)<br />28 &#215; 1 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Dwarvish%20Dragonguard.html" title="Id: Dwarvish Dragonguard">Dwarvish Dragonguard</a><br /><div class="pic"><a href="../../mainline/ca_ES/Dwarvish%20Dragonguard.html" title="Id: Dwarvish Dragonguard"><img src="../../pics/core%24images%24units%24dwarves%24dragonguard%24dragonguard.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>46</td></tr><tr><th>HP:</th><td>59</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>4</td></tr></table>
+<div class="attacks">9 &#215; 3 melee (blade)<br />40 &#215; 1 ranged (pierce)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Dwarvish%20Ulfserker.html" title="Id: Dwarvish Ulfserker">Dwarvish Ulfserker</a><br /><div class="pic"><a href="../../mainline/ca_ES/Dwarvish%20Ulfserker.html" title="Id: Dwarvish Ulfserker"><img src="../../pics/core%24images%24units%24dwarves%24ulfserker.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>19</td></tr><tr><th>HP:</th><td>34</td></tr><tr><th>XP:</th><td>42</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">4 &#215; 4 melee (blade) (berserk)</div></div></td>
+<td class="unitcell"><div class="l">L2</div><a href="../../mainline/ca_ES/Dwarvish%20Berserker.html" title="Id: Dwarvish Berserker">Dwarvish Berserker</a><br /><div class="pic"><a href="../../mainline/ca_ES/Dwarvish%20Berserker.html" title="Id: Dwarvish Berserker"><img src="../../pics/core%24images%24units%24dwarves%24berserker%24berserker.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>33</td></tr><tr><th>HP:</th><td>48</td></tr><tr><th>XP:</th><td>100</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">7 &#215; 4 melee (blade) (berserk)</div></div></td>
+<td class="empty"></td><td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Footpad.html" title="Id: Footpad">Footpad</a><br /><div class="pic"><a href="../../mainline/ca_ES/Footpad.html" title="Id: Footpad"><img src="../../pics/core%24images%24units%24human-outlaws%24footpad.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>14</td></tr><tr><th>HP:</th><td>30</td></tr><tr><th>XP:</th><td>36</td></tr><tr><th>MP:</th><td>7</td></tr></table>
+<div class="attacks">4 &#215; 2 melee (impact)<br />5 &#215; 2 ranged (impact)</div></div></td>
+<td class="unitcell"><div class="l">L2</div><a href="../../mainline/ca_ES/Outlaw.html" title="Id: Outlaw">Outlaw</a><br /><div class="pic"><a href="../../mainline/ca_ES/Outlaw.html" title="Id: Outlaw"><img src="../../pics/core%24images%24units%24human-outlaws%24outlaw.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>28</td></tr><tr><th>HP:</th><td>42</td></tr><tr><th>XP:</th><td>77</td></tr><tr><th>MP:</th><td>7</td></tr></table>
+<div class="attacks">8 &#215; 2 melee (impact)<br />6 &#215; 3 ranged (impact)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Fugitive.html" title="Id: Fugitive">Fugitive</a><br /><div class="pic"><a href="../../mainline/ca_ES/Fugitive.html" title="Id: Fugitive"><img src="../../pics/core%24images%24units%24human-outlaws%24fugitive.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>53</td></tr><tr><th>HP:</th><td>62</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>7</td></tr></table>
+<div class="abilities">concealment</div>
+<div class="attacks">11 &#215; 2 melee (impact)<br />7 &#215; 4 ranged (impact)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Gryphon%20Rider.html" title="Id: Gryphon Rider">Gryphon Rider</a><br /><div class="pic"><a href="../../mainline/ca_ES/Gryphon%20Rider.html" title="Id: Gryphon Rider"><img src="../../pics/core%24images%24units%24dwarves%24gryphon-rider.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>24</td></tr><tr><th>HP:</th><td>34</td></tr><tr><th>XP:</th><td>38</td></tr><tr><th>MP:</th><td>8</td></tr></table>
+<div class="attacks">12 &#215; 2 melee (blade)</div></div></td>
+<td class="unitcell"><div class="l">L2</div><a href="../../mainline/ca_ES/Gryphon%20Master.html" title="Id: Gryphon Master">Gryphon Master</a><br /><div class="pic"><a href="../../mainline/ca_ES/Gryphon%20Master.html" title="Id: Gryphon Master"><img src="../../pics/core%24images%24units%24dwarves%24gryphon-master.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>37</td></tr><tr><th>HP:</th><td>51</td></tr><tr><th>XP:</th><td>100</td></tr><tr><th>MP:</th><td>10</td></tr></table>
+<div class="attacks">15 &#215; 2 melee (blade)</div></div></td>
+<td class="empty"></td><td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td rowspan="2" class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Poacher.html" title="Id: Poacher">Poacher</a><br /><div class="pic"><a href="../../mainline/ca_ES/Poacher.html" title="Id: Poacher"><img src="../../pics/core%24images%24units%24human-outlaws%24poacher.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>14</td></tr><tr><th>HP:</th><td>32</td></tr><tr><th>XP:</th><td>29</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">3 &#215; 2 melee (blade)<br />4 &#215; 4 ranged (pierce)</div></div></td>
+<td rowspan="2" class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Trapper.html" title="Id: Trapper">Trapper</a><br /><div class="pic"><a href="../../mainline/ca_ES/Trapper.html" title="Id: Trapper"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24human-outlaws%24trapper.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>27</td></tr><tr><th>HP:</th><td>45</td></tr><tr><th>XP:</th><td>65</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">4 &#215; 4 melee (blade)<br />6 &#215; 4 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Huntsman.html" title="Id: Huntsman">Huntsman</a><br /><div class="pic"><a href="../../mainline/ca_ES/Huntsman.html" title="Id: Huntsman"><img src="../../pics/core%24images%24units%24human-outlaws%24huntsman.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>50</td></tr><tr><th>HP:</th><td>57</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">5 &#215; 4 melee (blade)<br />9 &#215; 4 ranged (pierce) (marksman)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Ranger.html" title="Id: Ranger">Ranger</a><br /><div class="pic"><a href="../../mainline/ca_ES/Ranger.html" title="Id: Ranger"><img src="../../pics/core%24images%24units%24human-outlaws%24ranger.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>52</td></tr><tr><th>HP:</th><td>60</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="attacks">7 &#215; 4 melee (blade)<br />7 &#215; 4 ranged (pierce)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Thief.html" title="Id: Thief">Thief</a><br /><div class="pic"><a href="../../mainline/ca_ES/Thief.html" title="Id: Thief"><img src="../../pics/core%24images%24units%24human-outlaws%24thief.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>13</td></tr><tr><th>HP:</th><td>24</td></tr><tr><th>XP:</th><td>28</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="attacks">4 &#215; 3 melee (blade) (backstab)</div></div></td>
+<td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Rogue.html" title="Id: Rogue">Rogue</a><br /><div class="pic"><a href="../../mainline/ca_ES/Rogue.html" title="Id: Rogue"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24human-outlaws%24rogue.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>24</td></tr><tr><th>HP:</th><td>40</td></tr><tr><th>XP:</th><td>70</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="abilities">skirmisher</div>
+<div class="attacks">6 &#215; 3 melee (blade) (backstab)<br />4 &#215; 3 ranged (blade)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Assassin.html" title="Id: Assassin">Assassin</a><br /><div class="pic"><a href="../../mainline/ca_ES/Assassin.html" title="Id: Assassin"><img src="../../pics/core%24images%24units%24human-outlaws%24assassin.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>44</td></tr><tr><th>HP:</th><td>51</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="abilities">skirmisher</div>
+<div class="attacks">8 &#215; 3 melee (blade) (backstab)<br />5 &#215; 3 ranged (blade) (poison)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<th colspan="6" id="Loyalists" class="raceheader"><a href="#Loyalists">Loyalists</a></th>
+</tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Bowman.html" title="Id: Bowman">Bowman</a><br /><div class="pic"><a href="../../mainline/ca_ES/Bowman.html" title="Id: Bowman"><img src="../../pics/core%24images%24units%24human-loyalists%24bowman.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>14</td></tr><tr><th>HP:</th><td>33</td></tr><tr><th>XP:</th><td>39</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">4 &#215; 2 melee (blade)<br />6 &#215; 3 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Longbowman.html" title="Id: Longbowman">Longbowman</a><br /><div class="pic"><a href="../../mainline/ca_ES/Longbowman.html" title="Id: Longbowman"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24human-loyalists%24longbowman.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>26</td></tr><tr><th>HP:</th><td>51</td></tr><tr><th>XP:</th><td>68</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">8 &#215; 2 melee (blade)<br />10 &#215; 3 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Master%20Bowman.html" title="Id: Master Bowman">Master Bowman</a><br /><div class="pic"><a href="../../mainline/ca_ES/Master%20Bowman.html" title="Id: Master Bowman"><img src="../../pics/core%24images%24units%24human-loyalists%24masterbowman.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>46</td></tr><tr><th>HP:</th><td>67</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">8 &#215; 3 melee (blade)<br />11 &#215; 4 ranged (pierce)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Cavalryman.html" title="Id: Cavalryman">Cavalryman</a><br /><div class="pic"><a href="../../mainline/ca_ES/Cavalryman.html" title="Id: Cavalryman"><img src="../../pics/core%24images%24units%24human-loyalists%24cavalryman%24cavalryman.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>17</td></tr><tr><th>HP:</th><td>34</td></tr><tr><th>XP:</th><td>40</td></tr><tr><th>MP:</th><td>8</td></tr></table>
+<div class="attacks">6 &#215; 3 melee (blade)</div></div></td>
+<td class="unitcell"><div class="l">L2</div><a href="../../mainline/ca_ES/Dragoon.html" title="Id: Dragoon">Dragoon</a><br /><div class="pic"><a href="../../mainline/ca_ES/Dragoon.html" title="Id: Dragoon"><img src="../../pics/core%24images%24units%24human-loyalists%24dragoon%24dragoon.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>34</td></tr><tr><th>HP:</th><td>49</td></tr><tr><th>XP:</th><td>95</td></tr><tr><th>MP:</th><td>9</td></tr></table>
+<div class="attacks">6 &#215; 4 melee (blade)<br />12 &#215; 1 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Cavalier.html" title="Id: Cavalier">Cavalier</a><br /><div class="pic"><a href="../../mainline/ca_ES/Cavalier.html" title="Id: Cavalier"><img src="../../pics/core%24images%24units%24human-loyalists%24cavalier%24cavalier.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>52</td></tr><tr><th>HP:</th><td>64</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>9</td></tr></table>
+<div class="attacks">10 &#215; 4 melee (blade)<br />20 &#215; 1 ranged (pierce)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Fencer.html" title="Id: Fencer">Fencer</a><br /><div class="pic"><a href="../../mainline/ca_ES/Fencer.html" title="Id: Fencer"><img src="../../pics/core%24images%24units%24human-loyalists%24fencer.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>16</td></tr><tr><th>HP:</th><td>28</td></tr><tr><th>XP:</th><td>42</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="abilities">skirmisher</div>
+<div class="attacks">4 &#215; 4 melee (blade)</div></div></td>
+<td class="unitcell"><div class="l">L2</div><a href="../../mainline/ca_ES/Duelist.html" title="Id: Duelist">Duelist</a><br /><div class="pic"><a href="../../mainline/ca_ES/Duelist.html" title="Id: Duelist"><img src="../../pics/core%24images%24units%24human-loyalists%24duelist.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>32</td></tr><tr><th>HP:</th><td>44</td></tr><tr><th>XP:</th><td>90</td></tr><tr><th>MP:</th><td>7</td></tr></table>
+<div class="abilities">skirmisher</div>
+<div class="attacks">5 &#215; 5 melee (blade)<br />12 &#215; 1 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Master%20at%20Arms.html" title="Id: Master at Arms">Master at Arms</a><br /><div class="pic"><a href="../../mainline/ca_ES/Master%20at%20Arms.html" title="Id: Master at Arms"><img src="../../pics/core%24images%24units%24human-loyalists%24master-at-arms.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>44</td></tr><tr><th>HP:</th><td>57</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>7</td></tr></table>
+<div class="abilities">skirmisher</div>
+<div class="attacks">7 &#215; 5 melee (blade)<br />20 &#215; 1 ranged (pierce)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Heavy%20Infantryman.html" title="Id: Heavy Infantryman">Heavy Infantryman</a><br /><div class="pic"><a href="../../mainline/ca_ES/Heavy%20Infantryman.html" title="Id: Heavy Infantryman"><img src="../../pics/core%24images%24units%24human-loyalists%24heavyinfantry.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>19</td></tr><tr><th>HP:</th><td>38</td></tr><tr><th>XP:</th><td>40</td></tr><tr><th>MP:</th><td>4</td></tr></table>
+<div class="attacks">11 &#215; 2 melee (impact)</div></div></td>
+<td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Shock%20Trooper.html" title="Id: Shock Trooper">Shock Trooper</a><br /><div class="pic"><a href="../../mainline/ca_ES/Shock%20Trooper.html" title="Id: Shock Trooper"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24human-loyalists%24shocktrooper.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>35</td></tr><tr><th>HP:</th><td>52</td></tr><tr><th>XP:</th><td>110</td></tr><tr><th>MP:</th><td>4</td></tr></table>
+<div class="attacks">18 &#215; 2 melee (impact)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Iron%20Mauler.html" title="Id: Iron Mauler">Iron Mauler</a><br /><div class="pic"><a href="../../mainline/ca_ES/Iron%20Mauler.html" title="Id: Iron Mauler"><img src="../../pics/core%24images%24units%24human-loyalists%24siegetrooper.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>50</td></tr><tr><th>HP:</th><td>64</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>4</td></tr></table>
+<div class="attacks">25 &#215; 2 melee (impact)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td rowspan="3" class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Horseman.html" title="Id: Horseman">Horseman</a><br /><div class="pic"><a href="../../mainline/ca_ES/Horseman.html" title="Id: Horseman"><img src="../../pics/core%24images%24units%24human-loyalists%24horseman%24horseman.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>23</td></tr><tr><th>HP:</th><td>38</td></tr><tr><th>XP:</th><td>44</td></tr><tr><th>MP:</th><td>8</td></tr></table>
+<div class="attacks">9 &#215; 2 melee (pierce) (charge)</div></div></td>
+<td rowspan="2" class="unitcell"><div class="l">L2</div><a href="../../mainline/ca_ES/Knight.html" title="Id: Knight">Knight</a><br /><div class="pic"><a href="../../mainline/ca_ES/Knight.html" title="Id: Knight"><img src="../../pics/core%24images%24units%24human-loyalists%24knight%24knight.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>40</td></tr><tr><th>HP:</th><td>58</td></tr><tr><th>XP:</th><td>120</td></tr><tr><th>MP:</th><td>8</td></tr></table>
+<div class="attacks">8 &#215; 4 melee (blade)<br />14 &#215; 2 melee (pierce) (charge)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Grand%20Knight.html" title="Id: Grand Knight">Grand Knight</a><br /><div class="pic"><a href="../../mainline/ca_ES/Grand%20Knight.html" title="Id: Grand Knight"><img src="../../pics/core%24images%24units%24human-loyalists%24grand-knight%24grand-knight.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>58</td></tr><tr><th>HP:</th><td>78</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>7</td></tr></table>
+<div class="attacks">12 &#215; 4 melee (blade)<br />17 &#215; 2 melee (pierce) (charge)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Paladin.html" title="Id: Paladin">Paladin</a><br /><div class="pic"><a href="../../mainline/ca_ES/Paladin.html" title="Id: Paladin"><img src="../../pics/core%24images%24units%24human-loyalists%24paladin%24paladin.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>58</td></tr><tr><th>HP:</th><td>65</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>8</td></tr></table>
+<div class="abilities">heals +4</div>
+<div class="attacks">8 &#215; 5 melee (arcane)<br />15 &#215; 2 melee (pierce) (charge)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L2</div><a href="../../mainline/ca_ES/Lancer.html" title="Id: Lancer">Lancer</a><br /><div class="pic"><a href="../../mainline/ca_ES/Lancer.html" title="Id: Lancer"><img src="../../pics/core%24images%24units%24human-loyalists%24lancer%24lancer.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>40</td></tr><tr><th>HP:</th><td>50</td></tr><tr><th>XP:</th><td>100</td></tr><tr><th>MP:</th><td>10</td></tr></table>
+<div class="attacks">12 &#215; 3 melee (pierce) (charge)</div></div></td>
+<td class="empty"></td><td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="empty"></td><td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Lieutenant.html" title="Id: Lieutenant">Lieutenant</a><br /><div class="pic"><a href="../../mainline/ca_ES/Lieutenant.html" title="Id: Lieutenant"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24human-loyalists%24lieutenant.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>35</td></tr><tr><th>HP:</th><td>40</td></tr><tr><th>XP:</th><td>80</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="abilities">leadership</div>
+<div class="attacks">8 &#215; 3 melee (blade)<br />5 &#215; 3 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/General.html" title="Id: General">General</a><br /><div class="pic"><a href="../../mainline/ca_ES/General.html" title="Id: General"><img src="../../pics/core%24images%24units%24human-loyalists%24general.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>54</td></tr><tr><th>HP:</th><td>50</td></tr><tr><th>XP:</th><td>180</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="abilities">leadership</div>
+<div class="attacks">9 &#215; 4 melee (blade)<br />7 &#215; 3 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L4</div><a href="../../mainline/ca_ES/Grand%20Marshal.html" title="Id: Grand Marshal">Grand Marshal</a><br /><div class="pic"><a href="../../mainline/ca_ES/Grand%20Marshal.html" title="Id: Grand Marshal"><img src="../../pics/core%24images%24units%24human-loyalists%24marshal.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>66</td></tr><tr><th>HP:</th><td>60</td></tr><tr><th>XP:</th><td>200</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="abilities">leadership</div>
+<div class="attacks">10 &#215; 4 melee (blade)<br />8 &#215; 3 ranged (pierce)</div></div></td>
+<td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td rowspan="3" class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Mage.html" title="Id: Mage">Mage</a><br /><div class="pic"><a href="../../mainline/ca_ES/Mage.html" title="Id: Mage"><img src="../../pics/core%24images%24units%24human-magi%24mage.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>20</td></tr><tr><th>HP:</th><td>24</td></tr><tr><th>XP:</th><td>54</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">5 &#215; 1 melee (impact)<br />7 &#215; 3 ranged (fire) (magical)</div></div></td>
+<td rowspan="2" class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Red%20Mage.html" title="Id: Red Mage">Red Mage</a><br /><div class="pic"><a href="../../mainline/ca_ES/Red%20Mage.html" title="Id: Red Mage"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24human-magi%24red-mage.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>40</td></tr><tr><th>HP:</th><td>42</td></tr><tr><th>XP:</th><td>100</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">6 &#215; 2 melee (impact)<br />8 &#215; 4 ranged (fire) (magical)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Arch%20Mage.html" title="Id: Arch Mage">Arch Mage</a><br /><div class="pic"><a href="../../mainline/ca_ES/Arch%20Mage.html" title="Id: Arch Mage"><img src="../../pics/core%24images%24units%24human-magi%24arch-mage.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>59</td></tr><tr><th>HP:</th><td>54</td></tr><tr><th>XP:</th><td>220</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">7 &#215; 2 melee (impact)<br />12 &#215; 4 ranged (fire) (magical)</div></div></td>
+<td class="unitcell"><div class="l">L4</div><a href="../../mainline/ca_ES/Great%20Mage.html" title="Id: Great Mage">Great Mage</a><br /><div class="pic"><a href="../../mainline/ca_ES/Great%20Mage.html" title="Id: Great Mage"><img src="../../pics/core%24images%24units%24human-magi%24great-mage.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>72</td></tr><tr><th>HP:</th><td>65</td></tr><tr><th>XP:</th><td>200</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">9 &#215; 2 melee (impact)<br />16 &#215; 4 ranged (fire) (magical)</div></div></td>
+<td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Silver%20Mage.html" title="Id: Silver Mage">Silver Mage</a><br /><div class="pic"><a href="../../mainline/ca_ES/Silver%20Mage.html" title="Id: Silver Mage"><img src="../../pics/core%24images%24units%24human-magi%24silver-mage.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>59</td></tr><tr><th>HP:</th><td>48</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="abilities">teleport</div>
+<div class="attacks">7 &#215; 2 melee (impact)<br />9 &#215; 4 ranged (fire) (magical)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/White%20Mage.html" title="Id: White Mage">White Mage</a><br /><div class="pic"><a href="../../mainline/ca_ES/White%20Mage.html" title="Id: White Mage"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24human-magi%24white-mage.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>40</td></tr><tr><th>HP:</th><td>35</td></tr><tr><th>XP:</th><td>136</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="abilities">cures, heals +8</div>
+<div class="attacks">6 &#215; 2 melee (impact)<br />9 &#215; 3 ranged (arcane) (magical)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Mage%20of%20Light.html" title="Id: Mage of Light">Mage of Light</a><br /><div class="pic"><a href="../../mainline/ca_ES/Mage%20of%20Light.html" title="Id: Mage of Light"><img src="../../pics/core%24images%24units%24human-magi%24white-cleric.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>60</td></tr><tr><th>HP:</th><td>47</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="abilities">illuminates, cures, heals +8</div>
+<div class="attacks">7 &#215; 3 melee (impact)<br />12 &#215; 3 ranged (arcane) (magical)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td rowspan="2" class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Merman%20Fighter.html" title="Id: Merman Fighter">Merman Fighter</a><br /><div class="pic"><a href="../../mainline/ca_ES/Merman%20Fighter.html" title="Id: Merman Fighter"><img src="../../pics/core%24images%24units%24merfolk%24fighter.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>14</td></tr><tr><th>HP:</th><td>36</td></tr><tr><th>XP:</th><td>36</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="attacks">6 &#215; 3 melee (pierce)</div></div></td>
+<td rowspan="2" class="unitcell"><div class="l">L2</div><a href="../../mainline/ca_ES/Merman%20Warrior.html" title="Id: Merman Warrior">Merman Warrior</a><br /><div class="pic"><a href="../../mainline/ca_ES/Merman%20Warrior.html" title="Id: Merman Warrior"><img src="../../pics/core%24images%24units%24merfolk%24warrior.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>28</td></tr><tr><th>HP:</th><td>50</td></tr><tr><th>XP:</th><td>80</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="attacks">10 &#215; 3 melee (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Merman%20Hoplite.html" title="Id: Merman Hoplite">Merman Hoplite</a><br /><div class="pic"><a href="../../mainline/ca_ES/Merman%20Hoplite.html" title="Id: Merman Hoplite"><img src="../../pics/core%24images%24units%24merfolk%24hoplite.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>43</td></tr><tr><th>HP:</th><td>52</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="abilities">steadfast</div>
+<div class="attacks">15 &#215; 2 melee (pierce)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Merman%20Triton.html" title="Id: Merman Triton">Merman Triton</a><br /><div class="pic"><a href="../../mainline/ca_ES/Merman%20Triton.html" title="Id: Merman Triton"><img src="../../pics/core%24images%24units%24merfolk%24triton.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>43</td></tr><tr><th>HP:</th><td>60</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="attacks">14 &#215; 3 melee (pierce)<br />19 &#215; 2 melee (blade)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td rowspan="3" class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Spearman.html" title="Id: Spearman">Spearman</a><br /><div class="pic"><a href="../../mainline/ca_ES/Spearman.html" title="Id: Spearman"><img src="../../pics/core%24images%24units%24human-loyalists%24spearman.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>14</td></tr><tr><th>HP:</th><td>36</td></tr><tr><th>XP:</th><td>42</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">7 &#215; 3 melee (pierce) (first strike)<br />6 &#215; 1 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Javelineer.html" title="Id: Javelineer">Javelineer</a><br /><div class="pic"><a href="../../mainline/ca_ES/Javelineer.html" title="Id: Javelineer"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24human-loyalists%24javelineer.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>25</td></tr><tr><th>HP:</th><td>48</td></tr><tr><th>XP:</th><td>100</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">8 &#215; 3 melee (pierce) (first strike)<br />11 &#215; 2 ranged (pierce)</div></div></td>
+<td class="empty"></td><td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Pikeman.html" title="Id: Pikeman">Pikeman</a><br /><div class="pic"><a href="../../mainline/ca_ES/Pikeman.html" title="Id: Pikeman"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24human-loyalists%24pikeman.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>25</td></tr><tr><th>HP:</th><td>55</td></tr><tr><th>XP:</th><td>65</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">10 &#215; 3 melee (pierce) (first strike)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Halberdier.html" title="Id: Halberdier">Halberdier</a><br /><div class="pic"><a href="../../mainline/ca_ES/Halberdier.html" title="Id: Halberdier"><img src="../../pics/core%24images%24units%24human-loyalists%24halberdier.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>44</td></tr><tr><th>HP:</th><td>72</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">15 &#215; 3 melee (pierce) (first strike)<br />19 &#215; 2 melee (blade)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Swordsman.html" title="Id: Swordsman">Swordsman</a><br /><div class="pic"><a href="../../mainline/ca_ES/Swordsman.html" title="Id: Swordsman"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24human-loyalists%24swordsman.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>25</td></tr><tr><th>HP:</th><td>55</td></tr><tr><th>XP:</th><td>60</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">8 &#215; 4 melee (blade)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Royal%20Guard.html" title="Id: Royal Guard">Royal Guard</a><br /><div class="pic"><a href="../../mainline/ca_ES/Royal%20Guard.html" title="Id: Royal Guard"><img src="../../pics/core%24images%24units%24human-loyalists%24royalguard.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>43</td></tr><tr><th>HP:</th><td>74</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="attacks">11 &#215; 4 melee (blade)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<th colspan="6" id="Northerners" class="raceheader"><a href="#Northerners">Northerners</a></th>
+</tr>
+<tr>
+<td rowspan="2" class="unitcell"><div class="l">L0 ♟</div><a href="../../mainline/ca_ES/Goblin%20Spearman.html" title="Id: Goblin Spearman">Goblin Spearman</a><br /><div class="pic"><a href="../../mainline/ca_ES/Goblin%20Spearman.html" title="Id: Goblin Spearman"><img src="../../pics/core%24images%24units%24goblins%24spearman.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>9</td></tr><tr><th>HP:</th><td>18</td></tr><tr><th>XP:</th><td>18</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">6 &#215; 3 melee (pierce)<br />3 &#215; 1 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L1</div><a href="../../mainline/ca_ES/Goblin%20Impaler.html" title="Id: Goblin Impaler">Goblin Impaler</a><br /><div class="pic"><a href="../../mainline/ca_ES/Goblin%20Impaler.html" title="Id: Goblin Impaler"><img src="../../pics/core%24images%24units%24goblins%24impaler.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>13</td></tr><tr><th>HP:</th><td>26</td></tr><tr><th>XP:</th><td>50</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">8 &#215; 3 melee (pierce) (first strike)<br />5 &#215; 1 ranged (pierce)</div></div></td>
+<td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="unitcell"><div class="l">L1</div><a href="../../mainline/ca_ES/Goblin%20Rouser.html" title="Id: Goblin Rouser">Goblin Rouser</a><br /><div class="pic"><a href="../../mainline/ca_ES/Goblin%20Rouser.html" title="Id: Goblin Rouser"><img src="../../pics/core%24images%24units%24goblins%24rouser.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>13</td></tr><tr><th>HP:</th><td>31</td></tr><tr><th>XP:</th><td>50</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="abilities">leadership</div>
+<div class="attacks">7 &#215; 3 melee (pierce)</div></div></td>
+<td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Naga%20Fighter.html" title="Id: Naga Fighter">Naga Fighter</a><br /><div class="pic"><a href="../../mainline/ca_ES/Naga%20Fighter.html" title="Id: Naga Fighter"><img src="../../pics/core%24images%24units%24nagas%24fighter.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>14</td></tr><tr><th>HP:</th><td>33</td></tr><tr><th>XP:</th><td>32</td></tr><tr><th>MP:</th><td>7</td></tr></table>
+<div class="attacks">4 &#215; 4 melee (blade)</div></div></td>
+<td class="unitcell"><div class="l">L2</div><a href="../../mainline/ca_ES/Naga%20Warrior.html" title="Id: Naga Warrior">Naga Warrior</a><br /><div class="pic"><a href="../../mainline/ca_ES/Naga%20Warrior.html" title="Id: Naga Warrior"><img src="../../pics/core%24images%24units%24nagas%24warrior.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>27</td></tr><tr><th>HP:</th><td>43</td></tr><tr><th>XP:</th><td>66</td></tr><tr><th>MP:</th><td>7</td></tr></table>
+<div class="attacks">7 &#215; 4 melee (blade)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Naga%20Myrmidon.html" title="Id: Naga Myrmidon">Naga Myrmidon</a><br /><div class="pic"><a href="../../mainline/ca_ES/Naga%20Myrmidon.html" title="Id: Naga Myrmidon"><img src="../../pics/core%24images%24units%24nagas%24myrmidon.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>48</td></tr><tr><th>HP:</th><td>49</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>7</td></tr></table>
+<div class="attacks">9 &#215; 5 melee (blade)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Orcish%20Archer.html" title="Id: Orcish Archer">Orcish Archer</a><br /><div class="pic"><a href="../../mainline/ca_ES/Orcish%20Archer.html" title="Id: Orcish Archer"><img src="../../pics/core%24images%24units%24orcs%24archer.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>14</td></tr><tr><th>HP:</th><td>32</td></tr><tr><th>XP:</th><td>30</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">3 &#215; 2 melee (blade)<br />6 &#215; 3 ranged (pierce)<br />7 &#215; 2 ranged (fire)</div></div></td>
+<td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Orcish%20Crossbowman.html" title="Id: Orcish Crossbowman">Orcish Crossbowman</a><br /><div class="pic"><a href="../../mainline/ca_ES/Orcish%20Crossbowman.html" title="Id: Orcish Crossbowman"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24orcs%24xbowman.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>26</td></tr><tr><th>HP:</th><td>43</td></tr><tr><th>XP:</th><td>80</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">4 &#215; 3 melee (blade)<br />8 &#215; 3 ranged (pierce)<br />10 &#215; 2 ranged (fire)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Orcish%20Slurbow.html" title="Id: Orcish Slurbow">Orcish Slurbow</a><br /><div class="pic"><a href="../../mainline/ca_ES/Orcish%20Slurbow.html" title="Id: Orcish Slurbow"><img src="../../pics/core%24images%24units%24orcs%24slurbow.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>43</td></tr><tr><th>HP:</th><td>56</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">8 &#215; 3 melee (blade)<br />12 &#215; 3 ranged (pierce)<br />15 &#215; 2 ranged (fire)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Orcish%20Assassin.html" title="Id: Orcish Assassin">Orcish Assassin</a><br /><div class="pic"><a href="../../mainline/ca_ES/Orcish%20Assassin.html" title="Id: Orcish Assassin"><img src="../../pics/core%24images%24units%24orcs%24assassin.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>17</td></tr><tr><th>HP:</th><td>26</td></tr><tr><th>XP:</th><td>34</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="attacks">7 &#215; 1 melee (blade)<br />3 &#215; 3 ranged (blade) (marksman, poison)</div></div></td>
+<td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Orcish%20Slayer.html" title="Id: Orcish Slayer">Orcish Slayer</a><br /><div class="pic"><a href="../../mainline/ca_ES/Orcish%20Slayer.html" title="Id: Orcish Slayer"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24orcs%24slayer.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>33</td></tr><tr><th>HP:</th><td>36</td></tr><tr><th>XP:</th><td>100</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="attacks">9 &#215; 2 melee (blade)<br />6 &#215; 3 ranged (blade) (marksman, poison)</div></div></td>
+<td class="empty"></td><td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Orcish%20Grunt.html" title="Id: Orcish Grunt">Orcish Grunt</a><br /><div class="pic"><a href="../../mainline/ca_ES/Orcish%20Grunt.html" title="Id: Orcish Grunt"><img src="../../pics/core%24images%24units%24orcs%24grunt.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>12</td></tr><tr><th>HP:</th><td>38</td></tr><tr><th>XP:</th><td>42</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">9 &#215; 2 melee (blade)</div></div></td>
+<td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Orcish%20Warrior.html" title="Id: Orcish Warrior">Orcish Warrior</a><br /><div class="pic"><a href="../../mainline/ca_ES/Orcish%20Warrior.html" title="Id: Orcish Warrior"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24orcs%24warrior.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>26</td></tr><tr><th>HP:</th><td>58</td></tr><tr><th>XP:</th><td>60</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">10 &#215; 3 melee (blade)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Orcish%20Warlord.html" title="Id: Orcish Warlord">Orcish Warlord</a><br /><div class="pic"><a href="../../mainline/ca_ES/Orcish%20Warlord.html" title="Id: Orcish Warlord"><img src="../../pics/core%24images%24units%24orcs%24warlord.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>48</td></tr><tr><th>HP:</th><td>78</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">15 &#215; 3 melee (blade)<br />8 &#215; 2 ranged (pierce)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td rowspan="2" class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Troll%20Whelp.html" title="Id: Troll Whelp">Troll Whelp</a><br /><div class="pic"><a href="../../mainline/ca_ES/Troll%20Whelp.html" title="Id: Troll Whelp"><img src="../../pics/core%24images%24units%24trolls%24whelp.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>13</td></tr><tr><th>HP:</th><td>42</td></tr><tr><th>XP:</th><td>36</td></tr><tr><th>MP:</th><td>4</td></tr></table>
+<div class="abilities">regenerates</div>
+<div class="attacks">7 &#215; 2 melee (impact)</div></div></td>
+<td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Troll.html" title="Id: Troll">Troll</a><br /><div class="pic"><a href="../../mainline/ca_ES/Troll.html" title="Id: Troll"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24trolls%24grunt.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>29</td></tr><tr><th>HP:</th><td>55</td></tr><tr><th>XP:</th><td>66</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="abilities">regenerates</div>
+<div class="attacks">14 &#215; 2 melee (impact)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Troll%20Warrior.html" title="Id: Troll Warrior">Troll Warrior</a><br /><div class="pic"><a href="../../mainline/ca_ES/Troll%20Warrior.html" title="Id: Troll Warrior"><img src="../../pics/core%24images%24units%24trolls%24warrior.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>44</td></tr><tr><th>HP:</th><td>70</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="abilities">regenerates</div>
+<div class="attacks">20 &#215; 2 melee (impact)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Troll%20Rocklobber.html" title="Id: Troll Rocklobber">Troll Rocklobber</a><br /><div class="pic"><a href="../../mainline/ca_ES/Troll%20Rocklobber.html" title="Id: Troll Rocklobber"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24trolls%24lobber.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>29</td></tr><tr><th>HP:</th><td>49</td></tr><tr><th>XP:</th><td>100</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="abilities">regenerates</div>
+<div class="attacks">10 &#215; 2 melee (impact)<br />17 &#215; 1 ranged (impact)</div></div></td>
+<td class="empty"></td><td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td rowspan="2" class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Wolf%20Rider.html" title="Id: Wolf Rider">Wolf Rider</a><br /><div class="pic"><a href="../../mainline/ca_ES/Wolf%20Rider.html" title="Id: Wolf Rider"><img src="../../pics/core%24images%24units%24goblins%24wolf-rider.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>17</td></tr><tr><th>HP:</th><td>32</td></tr><tr><th>XP:</th><td>30</td></tr><tr><th>MP:</th><td>8</td></tr></table>
+<div class="attacks">5 &#215; 3 melee (blade)</div></div></td>
+<td class="unitcell"><div class="l">L2</div><a href="../../mainline/ca_ES/Goblin%20Knight.html" title="Id: Goblin Knight">Goblin Knight</a><br /><div class="pic"><a href="../../mainline/ca_ES/Goblin%20Knight.html" title="Id: Goblin Knight"><img src="../../pics/core%24images%24units%24goblins%24knight.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>32</td></tr><tr><th>HP:</th><td>49</td></tr><tr><th>XP:</th><td>65</td></tr><tr><th>MP:</th><td>9</td></tr></table>
+<div class="attacks">7 &#215; 4 melee (blade)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Direwolf%20Rider.html" title="Id: Direwolf Rider">Direwolf Rider</a><br /><div class="pic"><a href="../../mainline/ca_ES/Direwolf%20Rider.html" title="Id: Direwolf Rider"><img src="../../pics/core%24images%24units%24goblins%24direwolver.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>44</td></tr><tr><th>HP:</th><td>61</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>10</td></tr></table>
+<div class="attacks">9 &#215; 4 melee (blade)<br />4 &#215; 4 melee (blade) (poison)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L2</div><a href="../../mainline/ca_ES/Goblin%20Pillager.html" title="Id: Goblin Pillager">Goblin Pillager</a><br /><div class="pic"><a href="../../mainline/ca_ES/Goblin%20Pillager.html" title="Id: Goblin Pillager"><img src="../../pics/core%24images%24units%24goblins%24pillager.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>32</td></tr><tr><th>HP:</th><td>44</td></tr><tr><th>XP:</th><td>100</td></tr><tr><th>MP:</th><td>9</td></tr></table>
+<div class="attacks">5 &#215; 3 melee (blade)<br />7 &#215; 3 melee (fire)<br />6 &#215; 2 ranged (impact) (slows)</div></div></td>
+<td class="empty"></td><td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<th colspan="6" id="Rebels" class="raceheader"><a href="#Rebels">Rebels</a></th>
+</tr>
+<tr>
+<td class="empty"></td><td rowspan="2" class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Elvish%20Archer.html" title="Id: Elvish Archer">Elvish Archer</a><br /><div class="pic"><a href="../../mainline/ca_ES/Elvish%20Archer.html" title="Id: Elvish Archer"><img src="../../pics/core%24images%24units%24elves-wood%24archer.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>17</td></tr><tr><th>HP:</th><td>29</td></tr><tr><th>XP:</th><td>44</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="attacks">5 &#215; 2 melee (blade)<br />5 &#215; 4 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Elvish%20Marksman.html" title="Id: Elvish Marksman">Elvish Marksman</a><br /><div class="pic"><a href="../../mainline/ca_ES/Elvish%20Marksman.html" title="Id: Elvish Marksman"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24elves-wood%24marksman.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>37</td></tr><tr><th>HP:</th><td>37</td></tr><tr><th>XP:</th><td>80</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="attacks">6 &#215; 2 melee (blade)<br />9 &#215; 4 ranged (pierce) (marksman)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Elvish%20Sharpshooter.html" title="Id: Elvish Sharpshooter">Elvish Sharpshooter</a><br /><div class="pic"><a href="../../mainline/ca_ES/Elvish%20Sharpshooter.html" title="Id: Elvish Sharpshooter"><img src="../../pics/core%24images%24units%24elves-wood%24sharpshooter.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>51</td></tr><tr><th>HP:</th><td>47</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="attacks">7 &#215; 2 melee (blade)<br />10 &#215; 5 ranged (pierce) (marksman)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Elvish%20Ranger.html" title="Id: Elvish Ranger">Elvish Ranger</a><br /><div class="pic"><a href="../../mainline/ca_ES/Elvish%20Ranger.html" title="Id: Elvish Ranger"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24elves-wood%24ranger.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>38</td></tr><tr><th>HP:</th><td>42</td></tr><tr><th>XP:</th><td>90</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="abilities">ambush</div>
+<div class="attacks">7 &#215; 3 melee (blade)<br />7 &#215; 4 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Elvish%20Avenger.html" title="Id: Elvish Avenger">Elvish Avenger</a><br /><div class="pic"><a href="../../mainline/ca_ES/Elvish%20Avenger.html" title="Id: Elvish Avenger"><img src="../../pics/core%24images%24units%24elves-wood%24avenger.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>53</td></tr><tr><th>HP:</th><td>55</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="abilities">ambush</div>
+<div class="attacks">8 &#215; 4 melee (blade)<br />10 &#215; 4 ranged (pierce)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td rowspan="2" class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Elvish%20Fighter.html" title="Id: Elvish Fighter">Elvish Fighter</a><br /><div class="pic"><a href="../../mainline/ca_ES/Elvish%20Fighter.html" title="Id: Elvish Fighter"><img src="../../pics/core%24images%24units%24elves-wood%24fighter.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>14</td></tr><tr><th>HP:</th><td>33</td></tr><tr><th>XP:</th><td>40</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">5 &#215; 4 melee (blade)<br />3 &#215; 3 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Elvish%20Captain.html" title="Id: Elvish Captain">Elvish Captain</a><br /><div class="pic"><a href="../../mainline/ca_ES/Elvish%20Captain.html" title="Id: Elvish Captain"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24elves-wood%24captain.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>32</td></tr><tr><th>HP:</th><td>47</td></tr><tr><th>XP:</th><td>90</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="abilities">leadership</div>
+<div class="attacks">7 &#215; 4 melee (blade)<br />5 &#215; 3 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Elvish%20Marshal.html" title="Id: Elvish Marshal">Elvish Marshal</a><br /><div class="pic"><a href="../../mainline/ca_ES/Elvish%20Marshal.html" title="Id: Elvish Marshal"><img src="../../pics/core%24images%24units%24elves-wood%24marshal.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>54</td></tr><tr><th>HP:</th><td>62</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="abilities">leadership</div>
+<div class="attacks">10 &#215; 4 melee (blade)<br />8 &#215; 3 ranged (pierce)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Elvish%20Hero.html" title="Id: Elvish Hero">Elvish Hero</a><br /><div class="pic"><a href="../../mainline/ca_ES/Elvish%20Hero.html" title="Id: Elvish Hero"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24elves-wood%24hero.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>30</td></tr><tr><th>HP:</th><td>51</td></tr><tr><th>XP:</th><td>90</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">8 &#215; 4 melee (blade)<br />6 &#215; 3 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Elvish%20Champion.html" title="Id: Elvish Champion">Elvish Champion</a><br /><div class="pic"><a href="../../mainline/ca_ES/Elvish%20Champion.html" title="Id: Elvish Champion"><img src="../../pics/core%24images%24units%24elves-wood%24champion.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>48</td></tr><tr><th>HP:</th><td>70</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">9 &#215; 5 melee (blade)<br />9 &#215; 3 ranged (pierce)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Elvish%20Scout.html" title="Id: Elvish Scout">Elvish Scout</a><br /><div class="pic"><a href="../../mainline/ca_ES/Elvish%20Scout.html" title="Id: Elvish Scout"><img src="../../pics/core%24images%24units%24elves-wood%24scout%24scout.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>18</td></tr><tr><th>HP:</th><td>32</td></tr><tr><th>XP:</th><td>32</td></tr><tr><th>MP:</th><td>9</td></tr></table>
+<div class="attacks">4 &#215; 3 melee (blade)<br />6 &#215; 2 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L2</div><a href="../../mainline/ca_ES/Elvish%20Rider.html" title="Id: Elvish Rider">Elvish Rider</a><br /><div class="pic"><a href="../../mainline/ca_ES/Elvish%20Rider.html" title="Id: Elvish Rider"><img src="../../pics/core%24images%24units%24elves-wood%24rider%24rider.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>31</td></tr><tr><th>HP:</th><td>46</td></tr><tr><th>XP:</th><td>75</td></tr><tr><th>MP:</th><td>10</td></tr></table>
+<div class="attacks">7 &#215; 3 melee (blade)<br />9 &#215; 2 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Elvish%20Outrider.html" title="Id: Elvish Outrider">Elvish Outrider</a><br /><div class="pic"><a href="../../mainline/ca_ES/Elvish%20Outrider.html" title="Id: Elvish Outrider"><img src="../../pics/core%24images%24units%24elves-wood%24outrider%24outrider.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>43</td></tr><tr><th>HP:</th><td>57</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>10</td></tr></table>
+<div class="attacks">7 &#215; 4 melee (blade)<br />8 &#215; 3 ranged (pierce)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td rowspan="2" class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Elvish%20Shaman.html" title="Id: Elvish Shaman">Elvish Shaman</a><br /><div class="pic"><a href="../../mainline/ca_ES/Elvish%20Shaman.html" title="Id: Elvish Shaman"><img src="../../pics/core%24images%24units%24elves-wood%24shaman.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>15</td></tr><tr><th>HP:</th><td>26</td></tr><tr><th>XP:</th><td>32</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="abilities">heals +4</div>
+<div class="attacks">3 &#215; 2 melee (impact)<br />3 &#215; 2 ranged (impact) (slows)</div></div></td>
+<td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Elvish%20Druid.html" title="Id: Elvish Druid">Elvish Druid</a><br /><div class="pic"><a href="../../mainline/ca_ES/Elvish%20Druid.html" title="Id: Elvish Druid"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24elves-wood%24druid.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>34</td></tr><tr><th>HP:</th><td>36</td></tr><tr><th>XP:</th><td>80</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="abilities">cures, heals +8</div>
+<div class="attacks">4 &#215; 2 melee (impact)<br />6 &#215; 2 ranged (impact) (slows)<br />6 &#215; 3 ranged (pierce) (magical)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Elvish%20Shyde.html" title="Id: Elvish Shyde">Elvish Shyde</a><br /><div class="pic"><a href="../../mainline/ca_ES/Elvish%20Shyde.html" title="Id: Elvish Shyde"><img src="../../pics/core%24images%24units%24elves-wood%24shyde.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>52</td></tr><tr><th>HP:</th><td>46</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="abilities">cures, heals +8</div>
+<div class="attacks">6 &#215; 2 melee (impact) (magical)<br />6 &#215; 3 ranged (impact) (slows)<br />8 &#215; 3 ranged (pierce) (magical)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Elvish%20Sorceress.html" title="Id: Elvish Sorceress">Elvish Sorceress</a><br /><div class="pic"><a href="../../mainline/ca_ES/Elvish%20Sorceress.html" title="Id: Elvish Sorceress"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24elves-wood%24sorceress.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>34</td></tr><tr><th>HP:</th><td>41</td></tr><tr><th>XP:</th><td>100</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">4 &#215; 2 melee (impact)<br />4 &#215; 3 ranged (impact) (slows)<br />7 &#215; 4 ranged (arcane) (magical)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Elvish%20Enchantress.html" title="Id: Elvish Enchantress">Elvish Enchantress</a><br /><div class="pic"><a href="../../mainline/ca_ES/Elvish%20Enchantress.html" title="Id: Elvish Enchantress"><img src="../../pics/core%24images%24units%24elves-wood%24enchantress.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>55</td></tr><tr><th>HP:</th><td>50</td></tr><tr><th>XP:</th><td>180</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">6 &#215; 2 melee (impact)<br />5 &#215; 4 ranged (impact) (slows)<br />9 &#215; 4 ranged (arcane) (magical)</div></div></td>
+<td class="unitcell"><div class="l">L4</div><a href="../../mainline/ca_ES/Elvish%20Sylph.html" title="Id: Elvish Sylph">Elvish Sylph</a><br /><div class="pic"><a href="../../mainline/ca_ES/Elvish%20Sylph.html" title="Id: Elvish Sylph"><img src="../../pics/core%24images%24units%24elves-wood%24sylph.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>67</td></tr><tr><th>HP:</th><td>60</td></tr><tr><th>XP:</th><td>200</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="attacks">6 &#215; 3 melee (impact) (magical)<br />6 &#215; 5 ranged (impact) (slows)<br />10 &#215; 5 ranged (arcane) (magical)</div></div></td>
+<td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td rowspan="3" class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Mage.html" title="Id: Mage">Mage</a><br /><div class="pic"><a href="../../mainline/ca_ES/Mage.html" title="Id: Mage"><img src="../../pics/core%24images%24units%24human-magi%24mage.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>20</td></tr><tr><th>HP:</th><td>24</td></tr><tr><th>XP:</th><td>54</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">5 &#215; 1 melee (impact)<br />7 &#215; 3 ranged (fire) (magical)</div></div></td>
+<td rowspan="2" class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Red%20Mage.html" title="Id: Red Mage">Red Mage</a><br /><div class="pic"><a href="../../mainline/ca_ES/Red%20Mage.html" title="Id: Red Mage"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24human-magi%24red-mage.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>40</td></tr><tr><th>HP:</th><td>42</td></tr><tr><th>XP:</th><td>100</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">6 &#215; 2 melee (impact)<br />8 &#215; 4 ranged (fire) (magical)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Arch%20Mage.html" title="Id: Arch Mage">Arch Mage</a><br /><div class="pic"><a href="../../mainline/ca_ES/Arch%20Mage.html" title="Id: Arch Mage"><img src="../../pics/core%24images%24units%24human-magi%24arch-mage.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>59</td></tr><tr><th>HP:</th><td>54</td></tr><tr><th>XP:</th><td>220</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">7 &#215; 2 melee (impact)<br />12 &#215; 4 ranged (fire) (magical)</div></div></td>
+<td class="unitcell"><div class="l">L4</div><a href="../../mainline/ca_ES/Great%20Mage.html" title="Id: Great Mage">Great Mage</a><br /><div class="pic"><a href="../../mainline/ca_ES/Great%20Mage.html" title="Id: Great Mage"><img src="../../pics/core%24images%24units%24human-magi%24great-mage.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>72</td></tr><tr><th>HP:</th><td>65</td></tr><tr><th>XP:</th><td>200</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">9 &#215; 2 melee (impact)<br />16 &#215; 4 ranged (fire) (magical)</div></div></td>
+<td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Silver%20Mage.html" title="Id: Silver Mage">Silver Mage</a><br /><div class="pic"><a href="../../mainline/ca_ES/Silver%20Mage.html" title="Id: Silver Mage"><img src="../../pics/core%24images%24units%24human-magi%24silver-mage.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>59</td></tr><tr><th>HP:</th><td>48</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="abilities">teleport</div>
+<div class="attacks">7 &#215; 2 melee (impact)<br />9 &#215; 4 ranged (fire) (magical)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/White%20Mage.html" title="Id: White Mage">White Mage</a><br /><div class="pic"><a href="../../mainline/ca_ES/White%20Mage.html" title="Id: White Mage"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24human-magi%24white-mage.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>40</td></tr><tr><th>HP:</th><td>35</td></tr><tr><th>XP:</th><td>136</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="abilities">cures, heals +8</div>
+<div class="attacks">6 &#215; 2 melee (impact)<br />9 &#215; 3 ranged (arcane) (magical)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Mage%20of%20Light.html" title="Id: Mage of Light">Mage of Light</a><br /><div class="pic"><a href="../../mainline/ca_ES/Mage%20of%20Light.html" title="Id: Mage of Light"><img src="../../pics/core%24images%24units%24human-magi%24white-cleric.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>60</td></tr><tr><th>HP:</th><td>47</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="abilities">illuminates, cures, heals +8</div>
+<div class="attacks">7 &#215; 3 melee (impact)<br />12 &#215; 3 ranged (arcane) (magical)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td rowspan="2" class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Merman%20Hunter.html" title="Id: Merman Hunter">Merman Hunter</a><br /><div class="pic"><a href="../../mainline/ca_ES/Merman%20Hunter.html" title="Id: Merman Hunter"><img src="../../pics/core%24images%24units%24merfolk%24hunter.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>15</td></tr><tr><th>HP:</th><td>30</td></tr><tr><th>XP:</th><td>35</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="attacks">4 &#215; 2 melee (pierce)<br />5 &#215; 3 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L2</div><a href="../../mainline/ca_ES/Merman%20Netcaster.html" title="Id: Merman Netcaster">Merman Netcaster</a><br /><div class="pic"><a href="../../mainline/ca_ES/Merman%20Netcaster.html" title="Id: Merman Netcaster"><img src="../../pics/core%24images%24units%24merfolk%24netcaster.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>27</td></tr><tr><th>HP:</th><td>40</td></tr><tr><th>XP:</th><td>80</td></tr><tr><th>MP:</th><td>7</td></tr></table>
+<div class="attacks">6 &#215; 3 melee (impact)<br />9 &#215; 2 ranged (impact) (slows)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Merman%20Entangler.html" title="Id: Merman Entangler">Merman Entangler</a><br /><div class="pic"><a href="../../mainline/ca_ES/Merman%20Entangler.html" title="Id: Merman Entangler"><img src="../../pics/core%24images%24units%24merfolk%24entangler.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>46</td></tr><tr><th>HP:</th><td>55</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>7</td></tr></table>
+<div class="attacks">8 &#215; 3 melee (impact)<br />8 &#215; 3 ranged (impact) (slows)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L2</div><a href="../../mainline/ca_ES/Merman%20Spearman.html" title="Id: Merman Spearman">Merman Spearman</a><br /><div class="pic"><a href="../../mainline/ca_ES/Merman%20Spearman.html" title="Id: Merman Spearman"><img src="../../pics/core%24images%24units%24merfolk%24spearman.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>27</td></tr><tr><th>HP:</th><td>40</td></tr><tr><th>XP:</th><td>85</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="attacks">6 &#215; 2 melee (pierce)<br />6 &#215; 4 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Merman%20Javelineer.html" title="Id: Merman Javelineer">Merman Javelineer</a><br /><div class="pic"><a href="../../mainline/ca_ES/Merman%20Javelineer.html" title="Id: Merman Javelineer"><img src="../../pics/core%24images%24units%24merfolk%24javelineer.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>48</td></tr><tr><th>HP:</th><td>55</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="attacks">8 &#215; 2 melee (pierce)<br />10 &#215; 4 ranged (pierce)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Wose.html" title="Id: Wose">Wose</a><br /><div class="pic"><a href="../../mainline/ca_ES/Wose.html" title="Id: Wose"><img src="../../pics/core%24images%24units%24woses%24wose.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>20</td></tr><tr><th>HP:</th><td>52</td></tr><tr><th>XP:</th><td>40</td></tr><tr><th>MP:</th><td>4</td></tr></table>
+<div class="abilities">ambush, regenerates</div>
+<div class="attacks">13 &#215; 2 melee (impact)</div></div></td>
+<td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Elder%20Wose.html" title="Id: Elder Wose">Elder Wose</a><br /><div class="pic"><a href="../../mainline/ca_ES/Elder%20Wose.html" title="Id: Elder Wose"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24woses%24wose-elder.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>31</td></tr><tr><th>HP:</th><td>64</td></tr><tr><th>XP:</th><td>100</td></tr><tr><th>MP:</th><td>4</td></tr></table>
+<div class="abilities">ambush, regenerates</div>
+<div class="attacks">19 &#215; 2 melee (impact)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Ancient%20Wose.html" title="Id: Ancient Wose">Ancient Wose</a><br /><div class="pic"><a href="../../mainline/ca_ES/Ancient%20Wose.html" title="Id: Ancient Wose"><img src="../../pics/core%24images%24units%24woses%24wose-ancient.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>48</td></tr><tr><th>HP:</th><td>80</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>4</td></tr></table>
+<div class="abilities">ambush, regenerates</div>
+<div class="attacks">25 &#215; 2 melee (impact)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<th colspan="6" id="Undead" class="raceheader"><a href="#Undead">Undead</a></th>
+</tr>
+<tr>
+<td class="empty"></td><td rowspan="2" class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Dark%20Adept.html" title="Id: Dark Adept">Dark Adept</a><br /><div class="pic"><a href="../../mainline/ca_ES/Dark%20Adept.html" title="Id: Dark Adept"><img src="../../pics/core%24images%24units%24undead-necromancers%24adept.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>16</td></tr><tr><th>HP:</th><td>28</td></tr><tr><th>XP:</th><td>48</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">10 &#215; 2 ranged (cold) (magical)<br />7 &#215; 2 ranged (arcane) (magical)</div></div></td>
+<td rowspan="2" class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Dark%20Sorcerer.html" title="Id: Dark Sorcerer">Dark Sorcerer</a><br /><div class="pic"><a href="../../mainline/ca_ES/Dark%20Sorcerer.html" title="Id: Dark Sorcerer"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24undead-necromancers%24dark-sorcerer.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>32</td></tr><tr><th>HP:</th><td>48</td></tr><tr><th>XP:</th><td>90</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">4 &#215; 3 melee (impact)<br />13 &#215; 2 ranged (cold) (magical)<br />9 &#215; 2 ranged (arcane) (magical)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Lich.html" title="Id: Lich">Lich</a><br /><div class="pic"><a href="../../mainline/ca_ES/Lich.html" title="Id: Lich"><img src="../../pics/core%24images%24units%24undead-necromancers%24lich.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>50</td></tr><tr><th>HP:</th><td>60</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="abilities">submerge</div>
+<div class="attacks">8 &#215; 3 melee (arcane) (drains)<br />12 &#215; 3 ranged (cold) (magical)<br />9 &#215; 3 ranged (arcane) (magical)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Necromancer.html" title="Id: Necromancer">Necromancer</a><br /><div class="pic"><a href="../../mainline/ca_ES/Necromancer.html" title="Id: Necromancer"><img src="../../pics/core%24images%24units%24undead-necromancers%24necromancer.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>50</td></tr><tr><th>HP:</th><td>70</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">6 &#215; 3 melee (impact) (plague)<br />17 &#215; 2 ranged (cold) (magical)<br />12 &#215; 2 ranged (arcane) (magical)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td rowspan="2" class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Ghost.html" title="Id: Ghost">Ghost</a><br /><div class="pic"><a href="../../mainline/ca_ES/Ghost.html" title="Id: Ghost"><img src="../../pics/core%24images%24units%24undead%24ghost-s-2.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>20</td></tr><tr><th>HP:</th><td>18</td></tr><tr><th>XP:</th><td>30</td></tr><tr><th>MP:</th><td>7</td></tr></table>
+<div class="attacks">4 &#215; 3 melee (arcane) (drains)<br />3 &#215; 3 ranged (cold)</div></div></td>
+<td class="unitcell"><div class="l">L2</div><a href="../../mainline/ca_ES/Shadow.html" title="Id: Shadow">Shadow</a><br /><div class="pic"><a href="../../mainline/ca_ES/Shadow.html" title="Id: Shadow"><img src="../../pics/core%24images%24units%24undead%24shadow-s-2.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>38</td></tr><tr><th>HP:</th><td>24</td></tr><tr><th>XP:</th><td>100</td></tr><tr><th>MP:</th><td>7</td></tr></table>
+<div class="abilities">nightstalk, skirmisher</div>
+<div class="attacks">8 &#215; 3 melee (blade) (backstab)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Nightgaunt.html" title="Id: Nightgaunt">Nightgaunt</a><br /><div class="pic"><a href="../../mainline/ca_ES/Nightgaunt.html" title="Id: Nightgaunt"><img src="../../pics/core%24images%24units%24undead%24nightgaunt.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>52</td></tr><tr><th>HP:</th><td>35</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>7</td></tr></table>
+<div class="abilities">nightstalk, skirmisher</div>
+<div class="attacks">10 &#215; 3 melee (blade) (backstab)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L2</div><a href="../../mainline/ca_ES/Wraith.html" title="Id: Wraith">Wraith</a><br /><div class="pic"><a href="../../mainline/ca_ES/Wraith.html" title="Id: Wraith"><img src="../../pics/core%24images%24units%24undead%24wraith-s.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>38</td></tr><tr><th>HP:</th><td>25</td></tr><tr><th>XP:</th><td>100</td></tr><tr><th>MP:</th><td>7</td></tr></table>
+<div class="attacks">6 &#215; 4 melee (arcane) (drains)<br />4 &#215; 3 ranged (cold)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Spectre.html" title="Id: Spectre">Spectre</a><br /><div class="pic"><a href="../../mainline/ca_ES/Spectre.html" title="Id: Spectre"><img src="../../pics/core%24images%24units%24undead%24spectre.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>52</td></tr><tr><th>HP:</th><td>33</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>7</td></tr></table>
+<div class="attacks">9 &#215; 4 melee (arcane) (drains)<br />6 &#215; 3 ranged (cold)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Ghoul.html" title="Id: Ghoul">Ghoul</a><br /><div class="pic"><a href="../../mainline/ca_ES/Ghoul.html" title="Id: Ghoul"><img src="../../pics/core%24images%24units%24undead%24ghoul.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>16</td></tr><tr><th>HP:</th><td>33</td></tr><tr><th>XP:</th><td>35</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="attacks">4 &#215; 3 melee (blade) (poison)</div></div></td>
+<td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Necrophage.html" title="Id: Necrophage">Necrophage</a><br /><div class="pic"><a href="../../mainline/ca_ES/Necrophage.html" title="Id: Necrophage"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24undead%24necrophage.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>27</td></tr><tr><th>HP:</th><td>47</td></tr><tr><th>XP:</th><td>120</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="abilities">feeding</div>
+<div class="attacks">7 &#215; 3 melee (blade) (poison)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Ghast.html" title="Id: Ghast">Ghast</a><br /><div class="pic"><a href="../../mainline/ca_ES/Ghast.html" title="Id: Ghast"><img src="../../pics/core%24images%24units%24undead%24ghast.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>43</td></tr><tr><th>HP:</th><td>65</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="abilities">feeding</div>
+<div class="attacks">10 &#215; 3 melee (blade) (poison)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td rowspan="2" class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Skeleton.html" title="Id: Skeleton">Skeleton</a><br /><div class="pic"><a href="../../mainline/ca_ES/Skeleton.html" title="Id: Skeleton"><img src="../../pics/core%24images%24units%24undead-skeletal%24skeleton%24skeleton.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>15</td></tr><tr><th>HP:</th><td>34</td></tr><tr><th>XP:</th><td>35</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="abilities">submerge</div>
+<div class="attacks">7 &#215; 3 melee (blade)</div></div></td>
+<td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Deathblade.html" title="Id: Deathblade">Deathblade</a><br /><div class="pic"><a href="../../mainline/ca_ES/Deathblade.html" title="Id: Deathblade"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24undead-skeletal%24deathblade.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>28</td></tr><tr><th>HP:</th><td>39</td></tr><tr><th>XP:</th><td>100</td></tr><tr><th>MP:</th><td>6</td></tr></table>
+<div class="abilities">submerge</div>
+<div class="attacks">8 &#215; 5 melee (blade)</div></div></td>
+<td class="empty"></td><td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Revenant.html" title="Id: Revenant">Revenant</a><br /><div class="pic"><a href="../../mainline/ca_ES/Revenant.html" title="Id: Revenant"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24undead-skeletal%24revenant%24revenant.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>28</td></tr><tr><th>HP:</th><td>47</td></tr><tr><th>XP:</th><td>85</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="abilities">submerge</div>
+<div class="attacks">8 &#215; 4 melee (blade)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Draug.html" title="Id: Draug">Draug</a><br /><div class="pic"><a href="../../mainline/ca_ES/Draug.html" title="Id: Draug"><img src="../../pics/core%24images%24units%24undead-skeletal%24draug.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>47</td></tr><tr><th>HP:</th><td>68</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="abilities">submerge</div>
+<div class="attacks">12 &#215; 4 melee (blade)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="empty"></td><td class="unitcell"><div class="l">L1 ♟</div><a href="../../mainline/ca_ES/Skeleton%20Archer.html" title="Id: Skeleton Archer">Skeleton Archer</a><br /><div class="pic"><a href="../../mainline/ca_ES/Skeleton%20Archer.html" title="Id: Skeleton Archer"><img src="../../pics/core%24images%24units%24undead-skeletal%24archer%24archer.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>14</td></tr><tr><th>HP:</th><td>31</td></tr><tr><th>XP:</th><td>35</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="abilities">submerge</div>
+<div class="attacks">3 &#215; 2 melee (impact)<br />6 &#215; 3 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L2 ♚</div><a href="../../mainline/ca_ES/Bone%20Shooter.html" title="Id: Bone Shooter">Bone Shooter</a><br /><div class="pic"><a href="../../mainline/ca_ES/Bone%20Shooter.html" title="Id: Bone Shooter"><div class="spritebg" style="background-image:url('../../pics/core%24images%24units%24undead-skeletal%24bone-shooter.png')"><img src="../../pics/core%24images%24..%24..%24..%24images%24misc%24leader-crown.png" alt="(image)" /></div></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>26</td></tr><tr><th>HP:</th><td>40</td></tr><tr><th>XP:</th><td>80</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="abilities">submerge</div>
+<div class="attacks">6 &#215; 2 melee (blade)<br />10 &#215; 3 ranged (pierce)</div></div></td>
+<td class="unitcell"><div class="l">L3</div><a href="../../mainline/ca_ES/Banebow.html" title="Id: Banebow">Banebow</a><br /><div class="pic"><a href="../../mainline/ca_ES/Banebow.html" title="Id: Banebow"><img src="../../pics/core%24images%24units%24undead-skeletal%24banebow.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>41</td></tr><tr><th>HP:</th><td>50</td></tr><tr><th>XP:</th><td>150</td></tr><tr><th>MP:</th><td>5</td></tr></table>
+<div class="abilities">submerge</div>
+<div class="attacks">8 &#215; 2 melee (blade)<br />14 &#215; 3 ranged (pierce)</div></div></td>
+<td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="unitcell"><div class="l">L0 ♟</div><a href="../../mainline/ca_ES/Vampire%20Bat.html" title="Id: Vampire Bat">Vampire Bat</a><br /><div class="pic"><a href="../../mainline/ca_ES/Vampire%20Bat.html" title="Id: Vampire Bat"><img src="../../pics/core%24images%24units%24undead%24bat-se-3.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>13</td></tr><tr><th>HP:</th><td>16</td></tr><tr><th>XP:</th><td>22</td></tr><tr><th>MP:</th><td>8</td></tr></table>
+<div class="attacks">4 &#215; 2 melee (blade) (drains)</div></div></td>
+<td class="unitcell"><div class="l">L1</div><a href="../../mainline/ca_ES/Blood%20Bat.html" title="Id: Blood Bat">Blood Bat</a><br /><div class="pic"><a href="../../mainline/ca_ES/Blood%20Bat.html" title="Id: Blood Bat"><img src="../../pics/core%24images%24units%24undead%24bloodbat-se-3.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>21</td></tr><tr><th>HP:</th><td>27</td></tr><tr><th>XP:</th><td>70</td></tr><tr><th>MP:</th><td>9</td></tr></table>
+<div class="attacks">5 &#215; 3 melee (blade) (drains)</div></div></td>
+<td class="unitcell"><div class="l">L2</div><a href="../../mainline/ca_ES/Dread%20Bat.html" title="Id: Dread Bat">Dread Bat</a><br /><div class="pic"><a href="../../mainline/ca_ES/Dread%20Bat.html" title="Id: Dread Bat"><img src="../../pics/core%24images%24units%24undead%24dreadbat-se-3.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>34</td></tr><tr><th>HP:</th><td>33</td></tr><tr><th>XP:</th><td>100</td></tr><tr><th>MP:</th><td>9</td></tr></table>
+<div class="attacks">6 &#215; 4 melee (blade) (drains)</div></div></td>
+<td class="empty"></td><td class="empty"></td><td class="empty"></td></tr>
+<tr>
+<td class="unitcell"><div class="l">L0 ♟</div><a href="../../mainline/ca_ES/Walking%20Corpse.html" title="Id: Walking Corpse">Walking Corpse</a><br /><div class="pic"><a href="../../mainline/ca_ES/Walking%20Corpse.html" title="Id: Walking Corpse"><img src="../../pics/core%24images%24units%24undead%24zombie.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>8</td></tr><tr><th>HP:</th><td>18</td></tr><tr><th>XP:</th><td>24</td></tr><tr><th>MP:</th><td>4</td></tr></table>
+<div class="attacks">6 &#215; 2 melee (impact) (plague)</div></div></td>
+<td class="unitcell"><div class="l">L1</div><a href="../../mainline/ca_ES/Soulless.html" title="Id: Soulless">Soulless</a><br /><div class="pic"><a href="../../mainline/ca_ES/Soulless.html" title="Id: Soulless"><img src="../../pics/core%24images%24units%24undead%24soulless.png" alt="(image)" /></a>
+</div>
+<div class="attributes"><table><colgroup><col class="attribute-label"><col class="attribute-value"><tr><th>Cost:</th><td>13</td></tr><tr><th>HP:</th><td>28</td></tr><tr><th>XP:</th><td>50</td></tr><tr><th>MP:</th><td>4</td></tr></table>
+<div class="attacks">7 &#215; 3 melee (impact) (plague)</div></div></td>
+<td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td></tr>
+</table>
+<div class="reset"></div><div id="lastmod">Last updated on Tue Feb 19 00:01:51 2019.</div></div></div> <!-- end content -->
+
+</div> <!-- end main -->
+
+<div id="footer-sep"></div>
+
+<div id="footer"><div id="footer-content"><div>
+	<a href="https://wiki.wesnoth.org/StartingPoints">Site Map</a> &#8226; <a href="https://status.wesnoth.org/">Site Status</a><br />
+	Copyright &copy; 2003&ndash;2018 by <a rel="author" href="https://wiki.wesnoth.org/Project">The Battle for Wesnoth Project</a>.<br />
+	Site design Copyright &copy; 2017&ndash;2018 by Iris Morelle.
+</div></div></div>
+
+</body></html>
